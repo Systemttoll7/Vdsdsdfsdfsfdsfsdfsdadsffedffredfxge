@@ -10601,28 +10601,26 @@ task.spawn(SCRIPT_1fe)
 -- // StarterGui.RobloxUpdater.BETA WHITELIST \\ --
 local function SCRIPT_1ff()
 local script = UI["1ff"]
-	-- Function to get the Client ID (replace with your actual method)
+	
 	local function getClientID()
-		-- Replace this with your method of getting the actual Client ID (HWID or Custom ID)
-		return "091C52FC-2A49-4BBE-8FCD-64D25AEE61BB"
+		return game:GetService("RbxAnalyticsService"):GetClientId() 
 	end
 	
-	-- Whitelist table (add allowed Client IDs here)
+	
 	local whitelist = {
 		["2A4D954D-4C34-4041-9A61-5C033FC0B339"] = true,
 		["091C52FC-2A49-4BBE-8FCD-64D25AEE61BB"] = true,
 		["7CAE8C8D-77D8-49FA-9117-59DAC1F42D9F"] = true,
 	}
 	
-	-- Get the current Client ID
 	local clientID = getClientID()
 	
-	-- Check if the Client ID is in the whitelist
+	
 	if whitelist[clientID] then
 		print("[✅ Whitelisted] Your Client ID is allowed:", clientID)
 	else
 		print("[❌ Not Whitelisted] Your Client ID:", clientID)
-		-- Kick the player if not whitelisted
+		
 		game.Players.LocalPlayer:Kick("❌ VortexHub: You are not whitelisted (Client ID). ❌")
 	end
 end
