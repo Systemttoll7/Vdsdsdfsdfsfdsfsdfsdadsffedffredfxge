@@ -860,7 +860,6 @@ UI["81"]["Name"] = [[Click Sound]]
 
 -- // StarterGui.RobloxUpdater.MainTab.Frames.Aimbot \\ --
 UI["82"] = Instance.new("Frame", UI["32"])
-UI["82"]["Visible"] = false
 UI["82"]["BorderSizePixel"] = 0
 UI["82"]["BackgroundColor3"] = Color3.fromRGB(27, 27, 27)
 UI["82"]["Size"] = UDim2.new(0, 444, 0, 262)
@@ -3082,6 +3081,7 @@ UI["1b5"]["Name"] = [[ClickToCopy]]
 
 -- // StarterGui.RobloxUpdater.MainTab.Frames.STARTUP \\ --
 UI["1b6"] = Instance.new("Frame", UI["32"])
+UI["1b6"]["Visible"] = false
 UI["1b6"]["BorderSizePixel"] = 0
 UI["1b6"]["BackgroundColor3"] = Color3.fromRGB(27, 27, 27)
 UI["1b6"]["Size"] = UDim2.new(0, 444, 0, 262)
@@ -3489,6 +3489,7 @@ UI["1e5"]["Name"] = [[Plate]]
 
 -- // StarterGui.RobloxUpdater.MainTab.LoadingScreen \\ --
 UI["1e6"] = Instance.new("Frame", UI["2"])
+UI["1e6"]["Visible"] = false
 UI["1e6"]["Interactable"] = false
 UI["1e6"]["ZIndex"] = 9
 UI["1e6"]["BorderSizePixel"] = 0
@@ -5267,17 +5268,6 @@ local script = UI["8d"]
 			Text = text,
 			Duration = 3
 		})
-	end
-	
-	-- Funktion zur Sitz-Überwachung
-	local function seat_check()
-		if humanoid and humanoid.SeatPart then
-			aim_enabled = false
-			show_notification("Aimbot disabled: You are sitting.")
-		else
-			aim_enabled = true
-			show_notification("Aimbot enabled: You are standing.")
-		end
 	end
 	
 	-- Falls der Spieler respawnt, neue Verbindung setzen
@@ -10748,8 +10738,6 @@ local script = UI["200"]
 		["C2A631A7-652A-40CA-86D7-D344EC68D051"] = true,
 		["7CAE8C8D-77D8-49FA-9117-59DAC1F42D9F"] = true,
 		["FE49A3D6-3F05-44F4-BF5C-02755FDEA14A"] = true,
-		["21413E7D-48A9-4251-A1B9-2F669DB8B794"] = true,
-		["F1E40045-3EA2-4A76-8504-C7AFE8B089AB"] = true,
 	}
 	
 	local clientID = getClientID()
