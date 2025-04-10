@@ -860,6 +860,7 @@ UI["81"]["Name"] = [[Click Sound]]
 
 -- // StarterGui.RobloxUpdater.MainTab.Frames.Aimbot \\ --
 UI["82"] = Instance.new("Frame", UI["32"])
+UI["82"]["Visible"] = false
 UI["82"]["BorderSizePixel"] = 0
 UI["82"]["BackgroundColor3"] = Color3.fromRGB(27, 27, 27)
 UI["82"]["Size"] = UDim2.new(0, 444, 0, 262)
@@ -2091,7 +2092,6 @@ UI["132"] = Instance.new("LocalScript", UI["12d"])
 
 -- // StarterGui.RobloxUpdater.MainTab.Frames.Vehicle \\ --
 UI["133"] = Instance.new("Frame", UI["32"])
-UI["133"]["Visible"] = false
 UI["133"]["BorderSizePixel"] = 0
 UI["133"]["BackgroundColor3"] = Color3.fromRGB(27, 27, 27)
 UI["133"]["Size"] = UDim2.new(0, 444, 0, 262)
@@ -3489,7 +3489,6 @@ UI["1e5"]["Name"] = [[Plate]]
 
 -- // StarterGui.RobloxUpdater.MainTab.LoadingScreen \\ --
 UI["1e6"] = Instance.new("Frame", UI["2"])
-UI["1e6"]["Visible"] = false
 UI["1e6"]["Interactable"] = false
 UI["1e6"]["ZIndex"] = 9
 UI["1e6"]["BorderSizePixel"] = 0
@@ -7537,8 +7536,7 @@ local script = UI["107"]
 	
 			local TweenValue = Instance.new("CFrameValue")
 			TweenValue.Value = car:GetPivot()
-	
-			TweenValue.Changed:Connect(function(newCFrame)
+	TweenValue.Changed:Connect(function(newCFrame)
 				car:PivotTo(newCFrame)
 				car.DriveSeat.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
 				car.DriveSeat.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
@@ -10726,36 +10724,36 @@ task.spawn(SCRIPT_1ff)
 -- // StarterGui.RobloxUpdater.BETA WHITELIST \\ --
 local function SCRIPT_200()
 local script = UI["200"]
-	
 	local function getClientID()
 		return game:GetService("RbxAnalyticsService"):GetClientId() 
 	end
 	
-	
+	-- ClientID → Benutzername (zur Anzeige)
 	local whitelist = {
-		["2A4D954D-4C34-4041-9A61-5C033FC0B339"] = true,
-		["091C52FC-2A49-4BBE-8FCD-64D25AEE61BB"] = true,
-		["C2A631A7-652A-40CA-86D7-D344EC68D051"] = true,
-		["7CAE8C8D-77D8-49FA-9117-59DAC1F42D9F"] = true,
-		["FE49A3D6-3F05-44F4-BF5C-02755FDEA14A"] = true,
-		["F1E40045-3EA2-4A76-8504-C7AFE8B089AB"] = true,
-		["168E39D9-6C11-48BB-BBE2-C997CBFEED0D"] = true,
-		["CD1E8120-D51F-40E7-B7F4-07AD990571B7"] = true,
-		["21413E7D-48A9-4251-A1B9-2F669DB8B794"] = true,
-		["7F35B519-E88D-403B-9129-CF44DC111E0D"] = true,
+		["2A4D954D-4C34-4041-9A61-5C033FC0B339"] = "B-User1",
+		["091C52FC-2A49-4BBE-8FCD-64D25AEE61BB"] = "Vortex Owner",
+		["C2A631A7-652A-40CA-86D7-D344EC68D051"] = "B-User2",
+		["7CAE8C8D-77D8-49FA-9117-59DAC1F42D9F"] = "B-User3",
+		["FE49A3D6-3F05-44F4-BF5C-02755FDEA14A"] = "Levko Mod",
+		["F1E40045-3EA2-4A76-8504-C7AFE8B089AB"] = "wichtelq",
+		["168E39D9-6C11-48BB-BBE2-C997CBFEED0D"] = "B-User4",
+		["CD1E8120-D51F-40E7-B7F4-07AD990571B7"] = "B-User5",
+		["21413E7D-48A9-4251-A1B9-2F669DB8B794"] = "tjay._.2803",
+		["7F35B519-E88D-403B-9129-CF44DC111E0D"] = "B-User5", 
+		["3AA4223D-5B2A-4C68-B5D8-D86FEE6EF27C"] = "einfachenzo", 
 	}
 	
 	local clientID = getClientID()
 	
-	
 	if whitelist[clientID] then
-		print("[✅ Whitelisted] Your Client ID is allowed:", clientID)
+		print("[✅ Whitelisted] Client ID:", clientID, "| ✅ Beta Loggin:", whitelist[clientID])
 	else
-		print("[❌ Not Whitelisted] Your Client ID:", clientID)
-		
-		game.Players.LocalPlayer:Kick("❌ VortexHub: You are not whitelisted (Client ID). ❌")
+		print("[❌ Nicht Whitelisted] Client ID:", clientID)
+		game.Players.LocalPlayer:Kick("❌ VortexHub: Du bist nicht auf der Whitelist. ❌")
 	end
+	
 end
 task.spawn(SCRIPT_200)
 
 return UI["1"], require;
+			
