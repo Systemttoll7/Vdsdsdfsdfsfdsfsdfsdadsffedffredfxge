@@ -5793,7 +5793,6 @@ task.spawn(SCRIPT_d)
 local function SCRIPT_e()
 local script = UI["e"]
 	--STRINGS:
-	local TweenService = game:GetService("TweenService")
 	local MainFrame = script.Parent
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -5840,30 +5839,13 @@ local script = UI["e"]
 		end
 	end)
 	
+	
 	local function Tabswitcher(clickedButtonName)
 		for _, frame in pairs(Frames:GetChildren()) do
-			if frame:IsA("Frame") then
-				local isTarget = (frame.Name == clickedButtonName)
-	
-				if isTarget then
-					frame.Visible = true
-					frame.BackgroundTransparency = 1
-	
-					local tweenInfo = TweenInfo.new(0.10, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-					local fadeIn = TweenService:Create(frame, tweenInfo, {
-						BackgroundTransparency = 0
-					})
-					fadeIn:Play()
-				else
-					local tweenInfo = TweenInfo.new(0.10, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
-					local fadeOut = TweenService:Create(frame, tweenInfo, {
-						BackgroundTransparency = 1
-					})
-					fadeOut:Play()
-					fadeOut.Completed:Connect(function()
-						frame.Visible = false
-					end)
-				end
+			if frame.Name == clickedButtonName then
+				frame.Visible = true
+			else
+				frame.Visible = false
 			end
 		end
 	end
@@ -5893,22 +5875,6 @@ local script = UI["e"]
 	
 	-- Starte das Abhören von Button-Click-Ereignissen
 	handleButtonClicks()
-	
-	local UserInputService = game:GetService("UserInputService")
-	
-	function onKeyPress(inputObject, gameProcessedEvent)
-		if not gameProcessedEvent then
-			if inputObject.KeyCode == Enum.KeyCode.T then 
-				if script.Parent.Parent.MainTab.Visible == false then
-					script.Parent.Parent.MainTab.Visible = true
-				else
-					script.Parent.Parent.MainTab.Visible = false
-				end
-			end
-		end
-	end
-	
-	UserInputService.InputBegan:connect(onKeyPress)
 	
 end
 task.spawn(SCRIPT_e)
