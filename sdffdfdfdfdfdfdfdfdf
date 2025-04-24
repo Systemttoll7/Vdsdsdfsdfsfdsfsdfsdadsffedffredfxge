@@ -5885,7 +5885,7 @@ local script = UI["13"]
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	local playerListFrame = script.Parent.ScrollingFrame2
-	local wantedRemoteEvent = ReplicatedStorage["3ZJ"]["731e1826-fa12-4818-8787-356435fe206d"]
+	local wantedRemoteEvent = ReplicatedStorage["vQl"]["bc899869-53fb-4319-af03-d3140020161b"]
 	
 	-- Tabelle für gewünschte Spieler
 	local wantedPlayers = {}
@@ -6303,7 +6303,7 @@ task.spawn(SCRIPT_3b)
 local function SCRIPT_3e()
 local script = UI["3e"]
 	local wantedPlayers = {}
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["3ZJ"]["731e1826-fa12-4818-8787-356435fe206d"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["vQl"]["bc899869-53fb-4319-af03-d3140020161b"]
 	
 	local function updateWanted(eventData)
 		wantedPlayers = {}
@@ -10129,8 +10129,8 @@ task.spawn(SCRIPT_204)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Aimbot.ScrollingFrame1.3AutoTaser.TeaserAimScript \\ --
 local function SCRIPT_20a()
 local script = UI["20a"]
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["3ZJ"]["731e1826-fa12-4818-8787-356435fe206d"]
-	local shootRemoteEvent = game:GetService("ReplicatedStorage")["3ZJ"]["f4b6d7d8-42a5-434a-8648-2a823332adab"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["vQl"]["bc899869-53fb-4319-af03-d3140020161b"]
+	local shootRemoteEvent = game:GetService("ReplicatedStorage")["vQl"]["6858cf2d-f1af-4680-9bc2-c18ca247e190b"]
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	local LocalPlayer = Players.LocalPlayer
@@ -10283,7 +10283,7 @@ local script = UI["210"]
 	local healthBarHeight = 6
 	local elementSpacing = 2
 	local maxDistance = 1000 -- Maximale Distanz in Studs, nach der das ESP ausgeblendet wird
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["3ZJ"]["731e1826-fa12-4818-8787-356435fe206d"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["vQl"]["bc899869-53fb-4319-af03-d3140020161b"]
 	
 	-- Tabelle, um die aktuellen ESPs zu verfolgen
 	local espTable = {}
