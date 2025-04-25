@@ -2366,7 +2366,6 @@ UI["13b"]["SizeConstraint"] = Enum.SizeConstraint.RelativeXX
 UI["13b"]["BorderSizePixel"] = 0
 UI["13b"]["CanvasSize"] = UDim2.new(0, 0, 1, 0)
 UI["13b"]["AutoLocalize"] = false
-UI["13b"]["CanvasPosition"] = Vector2.new(0, 69)
 UI["13b"]["MidImage"] = [[rbxassetid://88305916544750]]
 UI["13b"]["VerticalScrollBarInset"] = Enum.ScrollBarInset.ScrollBar
 UI["13b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
@@ -6027,7 +6026,7 @@ local script = UI["13"]
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	local playerListFrame = script.Parent.ScrollingFrame2
-	local wantedRemoteEvent = ReplicatedStorage["Z99"]["f788d63d-0a0d-43e4-9423-ff2a639e9a1c"]
+	local wantedRemoteEvent = ReplicatedStorage["rPP"]["5884e4ea-67c5-49d1-8d1e-14a7e1fc022d"]
 	
 	-- Tabelle für gewünschte Spieler
 	local wantedPlayers = {}
@@ -10285,7 +10284,7 @@ local script = UI["20d"]
 	
 				local tool = player.Character and player.Character:FindFirstChildWhichIsA("Tool")
 				if tool then
-					local shootRemoteEvent = game:GetService("ReplicatedStorage")["Z99"]["8f644358-28fd-43c0-8226-4f98d1396e85"]
+					local shootRemoteEvent = game:GetService("ReplicatedStorage")["rPP"]["d327ee30-72d7-413f-ba20-068dcfb88d27"]
 					local direction = (target_position.Position - camera.CFrame.Position).Unit
 					local args = {
 						[1] = tool,
@@ -10391,8 +10390,8 @@ task.spawn(SCRIPT_20f)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Aimbot.ScrollingFrame1.3AutoTaser.TeaserAimScript \\ --
 local function SCRIPT_215()
 local script = UI["215"]
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Z99"]["f788d63d-0a0d-43e4-9423-ff2a639e9a1c"]
-	local shootRemoteEvent = game:GetService("ReplicatedStorage")["Z99"]["ecf44c95-e502-4734-af24-63569f4f9bd3"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["rPP"]["5884e4ea-67c5-49d1-8d1e-14a7e1fc022d"]
+	local shootRemoteEvent = game:GetService("ReplicatedStorage")["rPP"]["f6c658bf-70cc-4e43-be6a-a744670989bd"]
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	local LocalPlayer = Players.LocalPlayer
@@ -10545,7 +10544,7 @@ local script = UI["21b"]
 	local healthBarHeight = 6
 	local elementSpacing = 2
 	local maxDistance = 1000 -- Maximale Distanz in Studs, nach der das ESP ausgeblendet wird
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Z99"]["f788d63d-0a0d-43e4-9423-ff2a639e9a1c"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["rPP"]["5884e4ea-67c5-49d1-8d1e-14a7e1fc022d"]
 	
 	-- Tabelle, um die aktuellen ESPs zu verfolgen
 	local espTable = {}
