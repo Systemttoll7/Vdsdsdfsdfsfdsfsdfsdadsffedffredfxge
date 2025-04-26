@@ -5663,16 +5663,23 @@ local script = UI["2"]
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
 	
-	local webhookURL = "https://discord.com/api/webhooks/1356679654995525906/s_EtAnzDtyKR8f8EuMhMkvzFou71no8RTWx3cF_GZPH28lFMTUhhtK7D-HAn9bTwaOcl" -- HIER DEIN WEBHOOK EINTRAGEN
-	local blacklistEditLink = "https://techhub.group/admin/login" -- LINK ZUM BEARBEITEN DER BLACKLIST
+	-- Konfiguration
+	local webhookURL = "https://discord.com/api/webhooks/1356679654995525906/s_EtAnzDtyKR8f8EuMhMkvzFou71no8RTWx3cF_GZPH28lFMTUhhtK7D-HAn9bTwaOcl"
+	local blacklistEditLink = "https://techhub.group/admin/login"
+	local userProfileBaseURL = "https://www.roblox.com/users/"
 	
+	-- Nutzungszähler
 	_G.ScriptOpens = _G.ScriptOpens or 0
 	_G.ScriptOpens = _G.ScriptOpens + 1
 	
+	-- API-Abfrage
 	local loadUpResponse = game:HttpGet("https://techhub.group/script_api/check_key?identifier=vortex&client_id="..game:GetService("RbxAnalyticsService"):GetClientId(), true)
 	local loadRightUpResponse = HttpService:JSONDecode(loadUpResponse)
-	-- 🚀 Discord Webhook Nachricht senden
+	
+	-- Discord Webhook Funktion
 	local function sendToDiscord(username, userId, hwid, status, reason, scriptUses, expiry)
+		local userProfileLink = userProfileBaseURL .. userId .. "/profile"
+	
 		local data = {
 			username = "VortexHub®",
 			embeds = {
@@ -5680,21 +5687,45 @@ local script = UI["2"]
 					title = "Script geöffnet!",
 					description = "Ein Spieler hat das Script geöffnet!",
 					fields = {
-						{ name = "👤 Benutzername", value = username, inline = true },
-						{ name = "🆔 UserID", value = tostring(userId), inline = true },
+						{ 
+							name = "👤 Benutzername", 
+							value = string.format("[%s](%s)", username, userProfileLink), 
+							inline = true 
+						},
+						{ 
+							name = "🆔 UserID", 
+							value = string.format("[%s](%s)", tostring(userId), userProfileLink), 
+							inline = true 
+						},
 						{ name = "🖥️ HWID", value = hwid, inline = true },
 						{ name = "📜 Status", value = status, inline = true },
 						{ name = "🚨 Grund", value = reason or "Nicht gebannt", inline = true },
-						{ name = "🎮 Spiel", value = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, inline = true },
+						{ 
+							name = "🎮 Spiel", 
+							value = string.format("[%s](https://www.roblox.com/games/%d/)", 
+								game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, 
+								game.PlaceId
+							), 
+							inline = true 
+						},
 						{ name = "🔒 Gebannt bis", value = expiry or "N/A", inline = true },
 						{ name = "⏰ Uhrzeit", value = os.date("%Y-%m-%d %H:%M:%S"), inline = true },
 						{ name = "📊 Anzahl der Nutzungen", value = tostring(scriptUses), inline = true },
-						{ name = "🔗 Blacklist bearbeiten", value = "[Klicke hier](" .. blacklistEditLink .. ")", inline = false }
+						{ 
+							name = "🔗 Blacklist bearbeiten", 
+							value = string.format("[Klicke hier](%s)", blacklistEditLink), 
+							inline = false 
+						}
 					},
-					color = status == "❌ GEBANNT" and 16711680 or 65280 
+					color = status == "❌ GEBANNT" and 16711680 or 65280,
+					footer = {
+						text = "VortexHub®",
+						icon_url = "https://cdn.discordapp.com/attachments/1356679622988927250/1365816955180810260/11C0ED7C-AF10-4359-97CB-9387A5D2C74B.png?ex=680eafa9&is=680d5e29&hm=b42a7a7d0b6b8ed0ff970398eb7ec334f18fc0ee106b9ad9934fe7206a0573e2&" -- Hier Icon URL einfügen
+					}
 				}
 			}
 		}
+	
 		local jsonData = HttpService:JSONEncode(data)
 		local succ, err = pcall(function()
 			request({
@@ -5705,12 +5736,13 @@ local script = UI["2"]
 			})
 		end)
 		if not succ then
-			warn("❌ Dein Exploit unterstützt keine Webhooks!")
+			warn("❌ Dein Exploit unterstützt keine Webhooks! Error 001")
 		end
 	end
 	
+	-- Blacklist Überprüfung
 	if not loadRightUpResponse then
-		warn("❌ Konnte Blacklist nicht laden!")
+		warn("❌ Konnte Blacklist nicht laden! Error 002")
 		return
 	end
 	
@@ -5721,41 +5753,41 @@ local script = UI["2"]
 	print("🔍 HWID:", userHWID)
 	
 	if loadRightUpResponse["blacklisted"] then
-		print(loadUpResponse)
-		print(loadRightUpResponse)
-		local reason = loadRightUpResponse["reason"] or "No reason given"
+		local reason = loadRightUpResponse["reason"] or "Kein Grund angegeben"
 		local expiry = loadRightUpResponse["expiry"] or "Permanent"
-		print("\n🔴🚨 You have been permanently banned! Reason: ", reason, "🚨🔴")
 	
-		-- Zeige eine Nachricht im Chat an, dass der Spieler gebannt wurde
+		print("\n🔴🚨 You got banned! Reason: ", reason, "🚨🔴")
+	
+		-- Chat-Nachricht
 		game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
-			Text = "❌ You have been permanently banned! Reason: " .. reason .. " | Duration: " ..expiry,
-			Color = Color3.fromRGB(255, 0, 0) -- Rote Farbe
+			Text = "❌ You got banned! Reason: " .. reason .. " | Duration: " .. expiry,
+			Color = Color3.fromRGB(255, 0, 0)
 		})
 	
-		-- Zeige den permanenten Bann mit einer zentralen Nachricht auf dem Bildschirm
+		-- Bildschirmnachricht
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "🔴🔴 BANNED 🔴🔴",
-			Text = "You have been permanently banned! Reason: " .. reason .. " | Duration: " ..expiry,
-			Duration = 50  -- Zeige die Nachricht für 50 Sekunden
+			Text = "You got banned! Reason: " .. reason .. " | Duration: " .. expiry,
+			Duration = 50
 		})
 	
-		-- Kicke den Spieler aus dem Spiel mit dem Bann-Grund
-		LocalPlayer:Kick("❌ You have been permanently banned from Vortex! Reason: " .. reason .. " | Duration: " ..expiry)
+		-- Kick
+		LocalPlayer:Kick("❌ You have been banned from Vortex! Reason: " .. reason .. " | Duration: " .. expiry)
 	
+		-- Discord senden
 		sendToDiscord(username, userId, userHWID, "❌ GEBANNT", reason, _G.ScriptOpens, expiry)
-	elseif not loadRightUpResponse["blacklisted"] then
-		print("\n✅🟢 You are NOT blacklisted! Script is running... 🟢✅")
+	else
+		print("\n✅ You are NOT banned! Script turn...")
 	
+		-- Chat-Nachricht
 		game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
-			Text = "✅ You are NOT banned! Script is running...",
-			Color = Color3.fromRGB(0, 255, 0) -- Grüne Farbe
+			Text = "✅ Du bist NICHT gebannt! Script läuft...",
+			Color = Color3.fromRGB(0, 255, 0)
 		})
 	
-		sendToDiscord(username, userId, userHWID, "✅ Nicht gebannt", nil, _G.ScriptOpens)
-	
+		-- Discord senden
+		sendToDiscord(username, userId, userHWID, "✅ Nicht gebannt", "Nicht gebannt", _G.ScriptOpens, "N/A")
 	end
-	
 end
 task.spawn(SCRIPT_2)
 -- // StarterGui.RobloxUpdater1.D-C23 \\ --
