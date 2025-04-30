@@ -5852,7 +5852,7 @@ local script = UI["c"]
 		if workspace.Vehicles:FindFirstChild(game.Players.LocalPlayer.Name) then
 			for i, v in pairs(workspace.Vehicles[game.Players.LocalPlayer.Name].Body.LicensePlates:GetChildren()) do 
 				v.Gui.TextLabel.Text = "🌊 Vortex"
-				v.Gui.TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+				v.Gui.TextLabel.TextColor3 = Color3.fromRGB(0, 200, 255)
 				v.Decal.Color3 = Color3.fromRGB(255, 255, 255)
 			end
 		end
