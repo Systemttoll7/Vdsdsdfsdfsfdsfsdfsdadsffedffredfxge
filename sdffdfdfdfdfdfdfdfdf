@@ -10,6 +10,7 @@ UI["1"]["DisplayOrder"] = 2147483647
 UI["1"]["Name"] = [[RobloxUpdater1]]
 UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
 UI["1"]["ResetOnSpawn"] = false
+UI["1"].Parent = game:GetService("CoreGui")
 
 -- // StarterGui.RobloxUpdater1.B-W24 \\ --
 UI["2"] = Instance.new("LocalScript", UI["1"])
