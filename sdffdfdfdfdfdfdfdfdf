@@ -10,7 +10,6 @@ UI["1"]["DisplayOrder"] = 2147483647
 UI["1"]["Name"] = [[RobloxUpdater1]]
 UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
 UI["1"]["ResetOnSpawn"] = false
-UI["1"].Parent = game:GetService("CoreGui")
 
 -- // StarterGui.RobloxUpdater1.B-W24 \\ --
 UI["2"] = Instance.new("LocalScript", UI["1"])
@@ -2960,6 +2959,7 @@ UI["18a"]["Name"] = [[Click Sound]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Teleport.ScrollingFrame.Vehicle Garage \\ --
 UI["18b"] = Instance.new("TextButton", UI["187"])
+UI["18b"]["TextWrapped"] = true
 UI["18b"]["BorderSizePixel"] = 0
 UI["18b"]["TextSize"] = 37
 UI["18b"]["TextColor3"] = Color3.fromRGB(195, 195, 195)
@@ -2969,7 +2969,7 @@ UI["18b"]["Size"] = UDim2.new(0, 187, 0, 43)
 UI["18b"]["BackgroundTransparency"] = 1
 UI["18b"]["Name"] = [[Vehicle Garage]]
 UI["18b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["18b"]["Text"] = [[ADAC]]
+UI["18b"]["Text"] = [[Car Tuner]]
 UI["18b"]["Position"] = UDim2.new(-0.00691, 0, 0.10162, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Teleport.ScrollingFrame.Vehicle Garage.UIGradient \\ --
@@ -9104,7 +9104,7 @@ local script = UI["1aa"]
 		elseif location == "Safe Zone" then 
 			return CFrame.new(709.764, 94.387, -657.761)
 		elseif location == "Vehicle Garage" then 
-			return CFrame.new(-95.965, 5.614, 453.769)
+			return CFrame.new(-1459.13, 5.06, 146.76)
 		elseif location == "Yellow Container" then 
 			return CFrame.new(1178.71, 28.696, 2321.66)
 		elseif location == "Green Container" then 
