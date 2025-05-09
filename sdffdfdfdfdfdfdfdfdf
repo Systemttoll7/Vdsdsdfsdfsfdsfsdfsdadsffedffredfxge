@@ -8291,8 +8291,8 @@ local script = UI["157"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, 200, 0)
-		local highDestination = destination + Vector3.new(0, 200, 0)
+		local highStart = startPosition + Vector3.new(0, -60, 0)
+		local highDestination = destination + Vector3.new(0, -60, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8497,8 +8497,8 @@ local script = UI["174"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, 200, 0)
-		local highDestination = destination + Vector3.new(0, 200, 0)
+		local highStart = startPosition + Vector3.new(0, -60, 0)
+		local highDestination = destination + Vector3.new(0, -60, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8616,8 +8616,8 @@ local script = UI["18f"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, 200, 0)
-		local highDestination = destination + Vector3.new(0, 200, 0)
+		local highStart = startPosition + Vector3.new(0, -60, 0)
+		local highDestination = destination + Vector3.new(0, -60, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8731,8 +8731,8 @@ local script = UI["19d"]
 		end
 	
 		-- Hoch fliegen, dann zum Ziel
-		moveTo(car.PrimaryPart.Position + Vector3.new(0, 200, 0))
-		moveTo(destination + Vector3.new(0, 200, 0))
+		moveTo(car.PrimaryPart.Position + Vector3.new(0, -60, 0))
+		moveTo(destination + Vector3.new(0, -60, 0))
 		moveTo(destination)
 		return true
 	end
