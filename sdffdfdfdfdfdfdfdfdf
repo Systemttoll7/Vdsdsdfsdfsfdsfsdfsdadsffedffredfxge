@@ -1,6 +1,6 @@
 -- // GUI TO LUA \\ --
 
--- // INSTANCES: 722 | SCRIPTS: 151 | MODULES: 0 \\ --
+-- // INSTANCES: 717 | SCRIPTS: 146 | MODULES: 0 \\ --
 
 local UI = {}
 
@@ -3435,187 +3435,187 @@ UI["1bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 UI["1bb"]["ScrollBarThickness"] = 5
 UI["1bb"]["BackgroundTransparency"] = 1
 
--- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.UIListLayout \\ --
-UI["1bc"] = Instance.new("UIListLayout", UI["1bb"])
-UI["1bc"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
-UI["1bc"]["Padding"] = UDim.new(0, 40)
-UI["1bc"]["SortOrder"] = Enum.SortOrder.LayoutOrder
-
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.UIPadding \\ --
-UI["1bd"] = Instance.new("UIPadding", UI["1bb"])
-UI["1bd"]["PaddingTop"] = UDim.new(0, 7)
-UI["1bd"]["PaddingBottom"] = UDim.new(0, 20)
+UI["1bc"] = Instance.new("UIPadding", UI["1bb"])
+UI["1bc"]["PaddingTop"] = UDim.new(0, 7)
+UI["1bc"]["PaddingBottom"] = UDim.new(0, 20)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser \\ --
-UI["1be"] = Instance.new("TextButton", UI["1bb"])
-UI["1be"]["BorderSizePixel"] = 0
-UI["1be"]["TextSize"] = 24
-UI["1be"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1be"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1be"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["1be"]["Size"] = UDim2.new(0, 181, 0, 56)
-UI["1be"]["BackgroundTransparency"] = 0.85
-UI["1be"]["Name"] = [[AntiTaser]]
-UI["1be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1be"]["Text"] = [[Set Anti Taser]]
-UI["1be"]["Position"] = UDim2.new(0.03604, 0, 0.24515, 0)
+UI["1bd"] = Instance.new("TextButton", UI["1bb"])
+UI["1bd"]["BorderSizePixel"] = 0
+UI["1bd"]["TextSize"] = 24
+UI["1bd"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1bd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["1bd"]["Size"] = UDim2.new(0, 181, 0, 56)
+UI["1bd"]["BackgroundTransparency"] = 0.85
+UI["1bd"]["Name"] = [[AntiTaser]]
+UI["1bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1bd"]["Text"] = [[Set Anti Taser]]
+UI["1bd"]["Position"] = UDim2.new(0.03604, 0, 0.24515, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.UICorner \\ --
-UI["1bf"] = Instance.new("UICorner", UI["1be"])
+UI["1be"] = Instance.new("UICorner", UI["1bd"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.TextLabel 1 \\ --
-UI["1c0"] = Instance.new("TextLabel", UI["1be"])
-UI["1c0"]["TextWrapped"] = true
-UI["1c0"]["BorderSizePixel"] = 0
-UI["1c0"]["TextTransparency"] = 0.32
-UI["1c0"]["TextScaled"] = true
-UI["1c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1c0"]["TextSize"] = 74
-UI["1c0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["1c0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1c0"]["BackgroundTransparency"] = 1
-UI["1c0"]["Size"] = UDim2.new(0, 211, 0, 16)
-UI["1c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1c0"]["Text"] = [[you can't be tasered]]
-UI["1c0"]["Name"] = [[TextLabel 1]]
-UI["1c0"]["Position"] = UDim2.new(-0.0884, 0, 1.11401, 0)
+UI["1bf"] = Instance.new("TextLabel", UI["1bd"])
+UI["1bf"]["TextWrapped"] = true
+UI["1bf"]["BorderSizePixel"] = 0
+UI["1bf"]["TextTransparency"] = 0.32
+UI["1bf"]["TextScaled"] = true
+UI["1bf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1bf"]["TextSize"] = 74
+UI["1bf"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["1bf"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1bf"]["BackgroundTransparency"] = 1
+UI["1bf"]["Size"] = UDim2.new(0, 211, 0, 16)
+UI["1bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1bf"]["Text"] = [[you can't be tasered]]
+UI["1bf"]["Name"] = [[TextLabel 1]]
+UI["1bf"]["Position"] = UDim2.new(-0.0884, 0, 1.11401, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.LocalScript \\ --
-UI["1c1"] = Instance.new("LocalScript", UI["1be"])
+UI["1c0"] = Instance.new("LocalScript", UI["1bd"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.UIGradient \\ --
-UI["1c2"] = Instance.new("UIGradient", UI["1be"])
-UI["1c2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["1c1"] = Instance.new("UIGradient", UI["1bd"])
+UI["1c1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.animation \\ --
-UI["1c3"] = Instance.new("LocalScript", UI["1be"])
-UI["1c3"]["Name"] = [[animation]]
+UI["1c2"] = Instance.new("LocalScript", UI["1bd"])
+UI["1c2"]["Name"] = [[animation]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.UIStroke \\ --
-UI["1c4"] = Instance.new("UIStroke", UI["1be"])
-UI["1c4"]["Transparency"] = 0.63
-UI["1c4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-UI["1c4"]["Thickness"] = 1.7
+UI["1c3"] = Instance.new("UIStroke", UI["1bd"])
+UI["1c3"]["Transparency"] = 0.63
+UI["1c3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+UI["1c3"]["Thickness"] = 1.7
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.Click Sound \\ --
-UI["1c5"] = Instance.new("LocalScript", UI["1be"])
-UI["1c5"]["Name"] = [[Click Sound]]
+UI["1c4"] = Instance.new("LocalScript", UI["1bd"])
+UI["1c4"]["Name"] = [[Click Sound]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan \\ --
-UI["1c6"] = Instance.new("TextButton", UI["1bb"])
-UI["1c6"]["BorderSizePixel"] = 0
-UI["1c6"]["TextSize"] = 24
-UI["1c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1c6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1c6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["1c6"]["Size"] = UDim2.new(0, 181, 0, 56)
-UI["1c6"]["BackgroundTransparency"] = 0.85
-UI["1c6"]["Name"] = [[AntiVCBan]]
-UI["1c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1c6"]["Text"] = [[Anti VC Ban: OFF]]
-UI["1c6"]["Position"] = UDim2.new(0.03604, 0, 0.58866, 0)
+UI["1c5"] = Instance.new("TextButton", UI["1bb"])
+UI["1c5"]["BorderSizePixel"] = 0
+UI["1c5"]["TextSize"] = 24
+UI["1c5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1c5"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1c5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["1c5"]["Size"] = UDim2.new(0, 181, 0, 56)
+UI["1c5"]["BackgroundTransparency"] = 0.85
+UI["1c5"]["Name"] = [[AntiVCBan]]
+UI["1c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1c5"]["Text"] = [[Anti VC Ban: OFF]]
+UI["1c5"]["Position"] = UDim2.new(0.03604, 0, 0.58866, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.UICorner \\ --
-UI["1c7"] = Instance.new("UICorner", UI["1c6"])
+UI["1c6"] = Instance.new("UICorner", UI["1c5"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.TextLabel 1 \\ --
-UI["1c8"] = Instance.new("TextLabel", UI["1c6"])
-UI["1c8"]["TextWrapped"] = true
-UI["1c8"]["BorderSizePixel"] = 0
-UI["1c8"]["TextTransparency"] = 0.32
-UI["1c8"]["TextScaled"] = true
-UI["1c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1c8"]["TextSize"] = 74
-UI["1c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["1c8"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1c8"]["BackgroundTransparency"] = 1
-UI["1c8"]["Size"] = UDim2.new(0, 211, 0, 16)
-UI["1c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1c8"]["Text"] = [[You can no longer get VC ban]]
-UI["1c8"]["Name"] = [[TextLabel 1]]
-UI["1c8"]["Position"] = UDim2.new(-0.0884, 0, 1.11401, 0)
+UI["1c7"] = Instance.new("TextLabel", UI["1c5"])
+UI["1c7"]["TextWrapped"] = true
+UI["1c7"]["BorderSizePixel"] = 0
+UI["1c7"]["TextTransparency"] = 0.32
+UI["1c7"]["TextScaled"] = true
+UI["1c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1c7"]["TextSize"] = 74
+UI["1c7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["1c7"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1c7"]["BackgroundTransparency"] = 1
+UI["1c7"]["Size"] = UDim2.new(0, 211, 0, 16)
+UI["1c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1c7"]["Text"] = [[You can no longer get VC ban]]
+UI["1c7"]["Name"] = [[TextLabel 1]]
+UI["1c7"]["Position"] = UDim2.new(-0.0884, 0, 1.11401, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.LocalScript \\ --
-UI["1c9"] = Instance.new("LocalScript", UI["1c6"])
+UI["1c8"] = Instance.new("LocalScript", UI["1c5"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.UIGradient \\ --
-UI["1ca"] = Instance.new("UIGradient", UI["1c6"])
-UI["1ca"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["1c9"] = Instance.new("UIGradient", UI["1c5"])
+UI["1c9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.animation \\ --
-UI["1cb"] = Instance.new("LocalScript", UI["1c6"])
-UI["1cb"]["Name"] = [[animation]]
+UI["1ca"] = Instance.new("LocalScript", UI["1c5"])
+UI["1ca"]["Name"] = [[animation]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.UIStroke \\ --
-UI["1cc"] = Instance.new("UIStroke", UI["1c6"])
-UI["1cc"]["Transparency"] = 0.63
-UI["1cc"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-UI["1cc"]["Thickness"] = 1.7
+UI["1cb"] = Instance.new("UIStroke", UI["1c5"])
+UI["1cb"]["Transparency"] = 0.63
+UI["1cb"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+UI["1cb"]["Thickness"] = 1.7
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.Click Sound \\ --
-UI["1cd"] = Instance.new("LocalScript", UI["1c6"])
-UI["1cd"]["Name"] = [[Click Sound]]
+UI["1cc"] = Instance.new("LocalScript", UI["1c5"])
+UI["1cc"]["Name"] = [[Click Sound]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest \\ --
-UI["1ce"] = Instance.new("TextButton", UI["1bb"])
-UI["1ce"]["BorderSizePixel"] = 0
-UI["1ce"]["TextSize"] = 24
-UI["1ce"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1ce"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1ce"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["1ce"]["Size"] = UDim2.new(0, 181, 0, 56)
-UI["1ce"]["BackgroundTransparency"] = 0.85
-UI["1ce"]["Name"] = [[AntiArrest]]
-UI["1ce"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1ce"]["Text"] = [[Anti Arrest: OFF]]
-UI["1ce"]["Position"] = UDim2.new(0.03604, 0, 0.24515, 0)
+UI["1cd"] = Instance.new("TextButton", UI["1bb"])
+UI["1cd"]["BorderSizePixel"] = 0
+UI["1cd"]["TextSize"] = 24
+UI["1cd"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1cd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1cd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["1cd"]["Size"] = UDim2.new(0, 181, 0, 56)
+UI["1cd"]["BackgroundTransparency"] = 0.85
+UI["1cd"]["Name"] = [[AntiArrest]]
+UI["1cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1cd"]["Text"] = [[Anti Arrest: OFF]]
+UI["1cd"]["Position"] = UDim2.new(0.03604, 0, 0.24515, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.UICorner \\ --
-UI["1cf"] = Instance.new("UICorner", UI["1ce"])
+UI["1ce"] = Instance.new("UICorner", UI["1cd"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.TextLabel 1 \\ --
-UI["1d0"] = Instance.new("TextLabel", UI["1ce"])
-UI["1d0"]["TextWrapped"] = true
-UI["1d0"]["BorderSizePixel"] = 0
-UI["1d0"]["TextTransparency"] = 0.32
-UI["1d0"]["TextScaled"] = true
-UI["1d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1d0"]["TextSize"] = 74
-UI["1d0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["1d0"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["1d0"]["BackgroundTransparency"] = 1
-UI["1d0"]["Size"] = UDim2.new(0, 211, 0, 16)
-UI["1d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["1d0"]["Text"] = [[you can't be Arresred]]
-UI["1d0"]["Name"] = [[TextLabel 1]]
-UI["1d0"]["Position"] = UDim2.new(-0.0884, 0, 1.11401, 0)
+UI["1cf"] = Instance.new("TextLabel", UI["1cd"])
+UI["1cf"]["TextWrapped"] = true
+UI["1cf"]["BorderSizePixel"] = 0
+UI["1cf"]["TextTransparency"] = 0.32
+UI["1cf"]["TextScaled"] = true
+UI["1cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1cf"]["TextSize"] = 74
+UI["1cf"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["1cf"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["1cf"]["BackgroundTransparency"] = 1
+UI["1cf"]["Size"] = UDim2.new(0, 211, 0, 16)
+UI["1cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["1cf"]["Text"] = [[you can't be Arresred]]
+UI["1cf"]["Name"] = [[TextLabel 1]]
+UI["1cf"]["Position"] = UDim2.new(-0.0884, 0, 1.11401, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.LocalScript \\ --
-UI["1d1"] = Instance.new("LocalScript", UI["1ce"])
+UI["1d0"] = Instance.new("LocalScript", UI["1cd"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.UIGradient \\ --
-UI["1d2"] = Instance.new("UIGradient", UI["1ce"])
-UI["1d2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["1d1"] = Instance.new("UIGradient", UI["1cd"])
+UI["1d1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.animation \\ --
-UI["1d3"] = Instance.new("LocalScript", UI["1ce"])
-UI["1d3"]["Name"] = [[animation]]
+UI["1d2"] = Instance.new("LocalScript", UI["1cd"])
+UI["1d2"]["Name"] = [[animation]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.UIStroke \\ --
-UI["1d4"] = Instance.new("UIStroke", UI["1ce"])
-UI["1d4"]["Transparency"] = 0.63
-UI["1d4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-UI["1d4"]["Thickness"] = 1.7
+UI["1d3"] = Instance.new("UIStroke", UI["1cd"])
+UI["1d3"]["Transparency"] = 0.63
+UI["1d3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+UI["1d3"]["Thickness"] = 1.7
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.Click Sound \\ --
-UI["1d5"] = Instance.new("LocalScript", UI["1ce"])
-UI["1d5"]["Name"] = [[Click Sound]]
+UI["1d4"] = Instance.new("LocalScript", UI["1cd"])
+UI["1d4"]["Name"] = [[Click Sound]]
+
+-- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.UIListLayout \\ --
+UI["1d5"] = Instance.new("UIListLayout", UI["1bb"])
+UI["1d5"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+UI["1d5"]["Padding"] = UDim.new(0, 40)
+UI["1d5"]["SortOrder"] = Enum.SortOrder.LayoutOrder
 
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Aimbot \\ --
 UI["1d6"] = Instance.new("Frame", UI["f"])
@@ -4720,7 +4720,7 @@ UI["267"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
 UI["267"]["BackgroundTransparency"] = 1
 UI["267"]["Size"] = UDim2.new(0, 204, 0, 16)
 UI["267"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["267"]["Text"] = [[Shows status from Clup]]
+UI["267"]["Text"] = [[Shows status from Club]]
 UI["267"]["Name"] = [[TextLabel 1]]
 UI["267"]["Position"] = UDim2.new(-0, 0, 1.20311, 0)
 
@@ -5043,498 +5043,478 @@ UI["28a"]["Position"] = UDim2.new(0.91826, 5, 0.01543, 0)
 UI["28b"] = Instance.new("UICorner", UI["28a"])
 UI["28b"]["CornerRadius"] = UDim.new(0, 10)
 
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.XUI.animation \\ --
-UI["28c"] = Instance.new("LocalScript", UI["28a"])
-UI["28c"]["Name"] = [[animation]]
-
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.STARTUP \\ --
-UI["28d"] = Instance.new("ImageButton", UI["289"])
-UI["28d"]["BorderSizePixel"] = 0
-UI["28d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["28d"]["ZIndex"] = 4
-UI["28d"]["Image"] = [[rbxassetid://76350238152141]]
-UI["28d"]["Size"] = UDim2.new(0, 35, 0, 35)
-UI["28d"]["BackgroundTransparency"] = 1
-UI["28d"]["Name"] = [[STARTUP]]
-UI["28d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["28d"]["Position"] = UDim2.new(0.08014, 0, 0.01864, 0)
+UI["28c"] = Instance.new("ImageButton", UI["289"])
+UI["28c"]["BorderSizePixel"] = 0
+UI["28c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["28c"]["ZIndex"] = 4
+UI["28c"]["Image"] = [[rbxassetid://76350238152141]]
+UI["28c"]["Size"] = UDim2.new(0, 35, 0, 35)
+UI["28c"]["BackgroundTransparency"] = 1
+UI["28c"]["Name"] = [[STARTUP]]
+UI["28c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["28c"]["Position"] = UDim2.new(0.08014, 0, 0.01864, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.STARTUP.UICorner \\ --
-UI["28e"] = Instance.new("UICorner", UI["28d"])
-UI["28e"]["CornerRadius"] = UDim.new(0, 10)
-
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.STARTUP.animation \\ --
-UI["28f"] = Instance.new("LocalScript", UI["28d"])
-UI["28f"]["Name"] = [[animation]]
-
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.STARTUP.Click Sound1 \\ --
-UI["290"] = Instance.new("LocalScript", UI["28d"])
-UI["290"]["Name"] = [[Click Sound1]]
+UI["28d"] = Instance.new("UICorner", UI["28c"])
+UI["28d"]["CornerRadius"] = UDim.new(0, 10)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame \\ --
-UI["291"] = Instance.new("ScrollingFrame", UI["289"])
-UI["291"]["Active"] = true
-UI["291"]["SizeConstraint"] = Enum.SizeConstraint.RelativeXX
-UI["291"]["BorderSizePixel"] = 0
-UI["291"]["CanvasSize"] = UDim2.new(0, 0, 0.9, 0)
-UI["291"]["AutoLocalize"] = false
-UI["291"]["MidImage"] = [[rbxassetid://88305916544750]]
-UI["291"]["VerticalScrollBarInset"] = Enum.ScrollBarInset.ScrollBar
-UI["291"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["291"]["VerticalScrollBarPosition"] = Enum.VerticalScrollBarPosition.Left
-UI["291"]["HorizontalScrollBarInset"] = Enum.ScrollBarInset.ScrollBar
-UI["291"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y
-UI["291"]["Size"] = UDim2.new(0, 126, 0, 254)
-UI["291"]["ScrollBarImageColor3"] = Color3.fromRGB(65, 215, 255)
-UI["291"]["Position"] = UDim2.new(0, 0, 0.17569, 0)
-UI["291"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["291"]["ScrollBarThickness"] = 3
-UI["291"]["BackgroundTransparency"] = 1
+UI["28e"] = Instance.new("ScrollingFrame", UI["289"])
+UI["28e"]["Active"] = true
+UI["28e"]["SizeConstraint"] = Enum.SizeConstraint.RelativeXX
+UI["28e"]["BorderSizePixel"] = 0
+UI["28e"]["CanvasSize"] = UDim2.new(0, 0, 0.9, 0)
+UI["28e"]["AutoLocalize"] = false
+UI["28e"]["MidImage"] = [[rbxassetid://88305916544750]]
+UI["28e"]["VerticalScrollBarInset"] = Enum.ScrollBarInset.ScrollBar
+UI["28e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["28e"]["VerticalScrollBarPosition"] = Enum.VerticalScrollBarPosition.Left
+UI["28e"]["HorizontalScrollBarInset"] = Enum.ScrollBarInset.ScrollBar
+UI["28e"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y
+UI["28e"]["Size"] = UDim2.new(0, 126, 0, 254)
+UI["28e"]["ScrollBarImageColor3"] = Color3.fromRGB(65, 215, 255)
+UI["28e"]["Position"] = UDim2.new(0, 0, 0.17569, 0)
+UI["28e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["28e"]["ScrollBarThickness"] = 3
+UI["28e"]["BackgroundTransparency"] = 1
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Aimbot \\ --
-UI["292"] = Instance.new("TextButton", UI["291"])
-UI["292"]["BorderSizePixel"] = 0
-UI["292"]["TextSize"] = 14
-UI["292"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["292"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["292"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["292"]["ZIndex"] = 2
-UI["292"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["292"]["BackgroundTransparency"] = 0.85
-UI["292"]["Name"] = [[Aimbot]]
-UI["292"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["292"]["Text"] = [[AIMBOT]]
-UI["292"]["Position"] = UDim2.new(0.06264, 0, 0.34596, 1)
+UI["28f"] = Instance.new("TextButton", UI["28e"])
+UI["28f"]["BorderSizePixel"] = 0
+UI["28f"]["TextSize"] = 14
+UI["28f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["28f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["28f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["28f"]["ZIndex"] = 2
+UI["28f"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["28f"]["BackgroundTransparency"] = 0.85
+UI["28f"]["Name"] = [[Aimbot]]
+UI["28f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["28f"]["Text"] = [[AIMBOT]]
+UI["28f"]["Position"] = UDim2.new(0.06264, 0, 0.34596, 1)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Aimbot.UICorner \\ --
-UI["293"] = Instance.new("UICorner", UI["292"])
+UI["290"] = Instance.new("UICorner", UI["28f"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Aimbot.UIGradient \\ --
-UI["294"] = Instance.new("UIGradient", UI["292"])
-UI["294"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["291"] = Instance.new("UIGradient", UI["28f"])
+UI["291"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Aimbot.Click Sound1 \\ --
-UI["295"] = Instance.new("LocalScript", UI["292"])
-UI["295"]["Name"] = [[Click Sound1]]
+UI["292"] = Instance.new("LocalScript", UI["28f"])
+UI["292"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.MAIN \\ --
-UI["296"] = Instance.new("TextButton", UI["291"])
-UI["296"]["BorderSizePixel"] = 0
-UI["296"]["TextSize"] = 14
-UI["296"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["296"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["296"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["296"]["ZIndex"] = 2
-UI["296"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["296"]["BackgroundTransparency"] = 0.85
-UI["296"]["Name"] = [[MAIN]]
-UI["296"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["296"]["Text"] = [[SAFETY]]
-UI["296"]["Position"] = UDim2.new(0.06264, 0, 0.0461, 0)
+UI["293"] = Instance.new("TextButton", UI["28e"])
+UI["293"]["BorderSizePixel"] = 0
+UI["293"]["TextSize"] = 14
+UI["293"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["293"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["293"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["293"]["ZIndex"] = 2
+UI["293"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["293"]["BackgroundTransparency"] = 0.85
+UI["293"]["Name"] = [[MAIN]]
+UI["293"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["293"]["Text"] = [[SAFETY]]
+UI["293"]["Position"] = UDim2.new(0.06264, 0, 0.0461, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.MAIN.UICorner \\ --
-UI["297"] = Instance.new("UICorner", UI["296"])
+UI["294"] = Instance.new("UICorner", UI["293"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.MAIN.UIGradient \\ --
-UI["298"] = Instance.new("UIGradient", UI["296"])
-UI["298"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["295"] = Instance.new("UIGradient", UI["293"])
+UI["295"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.MAIN.Click Sound1 \\ --
-UI["299"] = Instance.new("LocalScript", UI["296"])
-UI["299"]["Name"] = [[Click Sound1]]
+UI["296"] = Instance.new("LocalScript", UI["293"])
+UI["296"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Misc \\ --
-UI["29a"] = Instance.new("TextButton", UI["291"])
-UI["29a"]["BorderSizePixel"] = 0
-UI["29a"]["TextSize"] = 14
-UI["29a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["29a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["29a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["29a"]["ZIndex"] = 2
-UI["29a"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["29a"]["BackgroundTransparency"] = 0.85
-UI["29a"]["Name"] = [[Misc]]
-UI["29a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["29a"]["Text"] = [[MISC]]
-UI["29a"]["Position"] = UDim2.new(0.06264, 0, 0.81153, 0)
+UI["297"] = Instance.new("TextButton", UI["28e"])
+UI["297"]["BorderSizePixel"] = 0
+UI["297"]["TextSize"] = 14
+UI["297"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["297"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["297"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["297"]["ZIndex"] = 2
+UI["297"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["297"]["BackgroundTransparency"] = 0.85
+UI["297"]["Name"] = [[Misc]]
+UI["297"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["297"]["Text"] = [[MISC]]
+UI["297"]["Position"] = UDim2.new(0.06264, 0, 0.81153, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Misc.UICorner \\ --
-UI["29b"] = Instance.new("UICorner", UI["29a"])
+UI["298"] = Instance.new("UICorner", UI["297"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Misc.UIGradient \\ --
-UI["29c"] = Instance.new("UIGradient", UI["29a"])
-UI["29c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["299"] = Instance.new("UIGradient", UI["297"])
+UI["299"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Misc.Click Sound1 \\ --
-UI["29d"] = Instance.new("LocalScript", UI["29a"])
-UI["29d"]["Name"] = [[Click Sound1]]
+UI["29a"] = Instance.new("LocalScript", UI["297"])
+UI["29a"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Teleport \\ --
-UI["29e"] = Instance.new("TextButton", UI["291"])
-UI["29e"]["BorderSizePixel"] = 0
-UI["29e"]["TextSize"] = 14
-UI["29e"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["29e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["29e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["29e"]["ZIndex"] = 2
-UI["29e"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["29e"]["BackgroundTransparency"] = 0.85
-UI["29e"]["Name"] = [[Teleport]]
-UI["29e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["29e"]["Text"] = [[TELEPORT]]
-UI["29e"]["Position"] = UDim2.new(0.06264, 0, 0.50417, 0)
+UI["29b"] = Instance.new("TextButton", UI["28e"])
+UI["29b"]["BorderSizePixel"] = 0
+UI["29b"]["TextSize"] = 14
+UI["29b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["29b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["29b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["29b"]["ZIndex"] = 2
+UI["29b"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["29b"]["BackgroundTransparency"] = 0.85
+UI["29b"]["Name"] = [[Teleport]]
+UI["29b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["29b"]["Text"] = [[TELEPORT]]
+UI["29b"]["Position"] = UDim2.new(0.06264, 0, 0.50417, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Teleport.UICorner \\ --
-UI["29f"] = Instance.new("UICorner", UI["29e"])
+UI["29c"] = Instance.new("UICorner", UI["29b"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Teleport.UIGradient \\ --
-UI["2a0"] = Instance.new("UIGradient", UI["29e"])
-UI["2a0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["29d"] = Instance.new("UIGradient", UI["29b"])
+UI["29d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Teleport.Click Sound1 \\ --
-UI["2a1"] = Instance.new("LocalScript", UI["29e"])
-UI["2a1"]["Name"] = [[Click Sound1]]
+UI["29e"] = Instance.new("LocalScript", UI["29b"])
+UI["29e"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.VISUALS \\ --
-UI["2a2"] = Instance.new("TextButton", UI["291"])
-UI["2a2"]["BorderSizePixel"] = 0
-UI["2a2"]["TextSize"] = 14
-UI["2a2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2a2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2a2"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2a2"]["ZIndex"] = 2
-UI["2a2"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["2a2"]["BackgroundTransparency"] = 0.85
-UI["2a2"]["Name"] = [[VISUALS]]
-UI["2a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2a2"]["Text"] = [[VISUALS]]
-UI["2a2"]["Position"] = UDim2.new(0.06264, 0, 0.19606, 0)
+UI["29f"] = Instance.new("TextButton", UI["28e"])
+UI["29f"]["BorderSizePixel"] = 0
+UI["29f"]["TextSize"] = 14
+UI["29f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["29f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["29f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["29f"]["ZIndex"] = 2
+UI["29f"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["29f"]["BackgroundTransparency"] = 0.85
+UI["29f"]["Name"] = [[VISUALS]]
+UI["29f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["29f"]["Text"] = [[VISUALS]]
+UI["29f"]["Position"] = UDim2.new(0.06264, 0, 0.19606, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.VISUALS.UICorner \\ --
-UI["2a3"] = Instance.new("UICorner", UI["2a2"])
+UI["2a0"] = Instance.new("UICorner", UI["29f"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.VISUALS.UIGradient \\ --
-UI["2a4"] = Instance.new("UIGradient", UI["2a2"])
-UI["2a4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["2a1"] = Instance.new("UIGradient", UI["29f"])
+UI["2a1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.VISUALS.Click Sound1 \\ --
-UI["2a5"] = Instance.new("LocalScript", UI["2a2"])
-UI["2a5"]["Name"] = [[Click Sound1]]
+UI["2a2"] = Instance.new("LocalScript", UI["29f"])
+UI["2a2"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Vehicle \\ --
-UI["2a6"] = Instance.new("TextButton", UI["291"])
-UI["2a6"]["BorderSizePixel"] = 0
-UI["2a6"]["TextSize"] = 14
-UI["2a6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2a6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2a6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2a6"]["ZIndex"] = 2
-UI["2a6"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["2a6"]["BackgroundTransparency"] = 0.85
-UI["2a6"]["Name"] = [[Vehicle]]
-UI["2a6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2a6"]["Text"] = [[VEHICLE]]
-UI["2a6"]["Position"] = UDim2.new(0.06264, 0, 0.65614, 0)
+UI["2a3"] = Instance.new("TextButton", UI["28e"])
+UI["2a3"]["BorderSizePixel"] = 0
+UI["2a3"]["TextSize"] = 14
+UI["2a3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2a3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2a3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2a3"]["ZIndex"] = 2
+UI["2a3"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["2a3"]["BackgroundTransparency"] = 0.85
+UI["2a3"]["Name"] = [[Vehicle]]
+UI["2a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2a3"]["Text"] = [[VEHICLE]]
+UI["2a3"]["Position"] = UDim2.new(0.06264, 0, 0.65614, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Vehicle.UICorner \\ --
-UI["2a7"] = Instance.new("UICorner", UI["2a6"])
+UI["2a4"] = Instance.new("UICorner", UI["2a3"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Vehicle.UIGradient \\ --
-UI["2a8"] = Instance.new("UIGradient", UI["2a6"])
-UI["2a8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["2a5"] = Instance.new("UIGradient", UI["2a3"])
+UI["2a5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Vehicle.Click Sound1 \\ --
-UI["2a9"] = Instance.new("LocalScript", UI["2a6"])
-UI["2a9"]["Name"] = [[Click Sound1]]
+UI["2a6"] = Instance.new("LocalScript", UI["2a3"])
+UI["2a6"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.GunMods \\ --
-UI["2aa"] = Instance.new("TextButton", UI["291"])
-UI["2aa"]["BorderSizePixel"] = 0
-UI["2aa"]["TextSize"] = 14
-UI["2aa"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2aa"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2aa"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2aa"]["ZIndex"] = 2
-UI["2aa"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["2aa"]["BackgroundTransparency"] = 0.85
-UI["2aa"]["Name"] = [[GunMods]]
-UI["2aa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2aa"]["Text"] = [[GUNMODS]]
-UI["2aa"]["Position"] = UDim2.new(0.06264, 0, 0.96329, 0)
+UI["2a7"] = Instance.new("TextButton", UI["28e"])
+UI["2a7"]["BorderSizePixel"] = 0
+UI["2a7"]["TextSize"] = 14
+UI["2a7"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2a7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2a7"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2a7"]["ZIndex"] = 2
+UI["2a7"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["2a7"]["BackgroundTransparency"] = 0.85
+UI["2a7"]["Name"] = [[GunMods]]
+UI["2a7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2a7"]["Text"] = [[GUNMODS]]
+UI["2a7"]["Position"] = UDim2.new(0.06264, 0, 0.96329, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.GunMods.UICorner \\ --
-UI["2ab"] = Instance.new("UICorner", UI["2aa"])
+UI["2a8"] = Instance.new("UICorner", UI["2a7"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.GunMods.UIGradient \\ --
-UI["2ac"] = Instance.new("UIGradient", UI["2aa"])
-UI["2ac"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["2a9"] = Instance.new("UIGradient", UI["2a7"])
+UI["2a9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.GunMods.Click Sound1 \\ --
-UI["2ad"] = Instance.new("LocalScript", UI["2aa"])
-UI["2ad"]["Name"] = [[Click Sound1]]
+UI["2aa"] = Instance.new("LocalScript", UI["2a7"])
+UI["2aa"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Server \\ --
-UI["2ae"] = Instance.new("TextButton", UI["291"])
-UI["2ae"]["BorderSizePixel"] = 0
-UI["2ae"]["TextSize"] = 14
-UI["2ae"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2ae"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2ae"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2ae"]["ZIndex"] = 2
-UI["2ae"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["2ae"]["BackgroundTransparency"] = 0.85
-UI["2ae"]["Name"] = [[Server]]
-UI["2ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2ae"]["Text"] = [[SERVER]]
-UI["2ae"]["Position"] = UDim2.new(0.06546, 0, 1.12096, 0)
+UI["2ab"] = Instance.new("TextButton", UI["28e"])
+UI["2ab"]["BorderSizePixel"] = 0
+UI["2ab"]["TextSize"] = 14
+UI["2ab"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2ab"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2ab"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2ab"]["ZIndex"] = 2
+UI["2ab"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["2ab"]["BackgroundTransparency"] = 0.85
+UI["2ab"]["Name"] = [[Server]]
+UI["2ab"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2ab"]["Text"] = [[SERVER]]
+UI["2ab"]["Position"] = UDim2.new(0.06546, 0, 1.12096, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Server.UICorner \\ --
-UI["2af"] = Instance.new("UICorner", UI["2ae"])
+UI["2ac"] = Instance.new("UICorner", UI["2ab"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Server.UIGradient \\ --
-UI["2b0"] = Instance.new("UIGradient", UI["2ae"])
-UI["2b0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["2ad"] = Instance.new("UIGradient", UI["2ab"])
+UI["2ad"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Server.Click Sound1 \\ --
-UI["2b1"] = Instance.new("LocalScript", UI["2ae"])
-UI["2b1"]["Name"] = [[Click Sound1]]
+UI["2ae"] = Instance.new("LocalScript", UI["2ab"])
+UI["2ae"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.UIListLayout \\ --
-UI["2b2"] = Instance.new("UIListLayout", UI["291"])
-UI["2b2"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
-UI["2b2"]["Padding"] = UDim.new(0, 7)
-UI["2b2"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+UI["2af"] = Instance.new("UIListLayout", UI["28e"])
+UI["2af"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+UI["2af"]["Padding"] = UDim.new(0, 7)
+UI["2af"]["SortOrder"] = Enum.SortOrder.LayoutOrder
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.UIPadding \\ --
-UI["2b3"] = Instance.new("UIPadding", UI["291"])
-UI["2b3"]["PaddingTop"] = UDim.new(0, 7)
+UI["2b0"] = Instance.new("UIPadding", UI["28e"])
+UI["2b0"]["PaddingTop"] = UDim.new(0, 7)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Stats \\ --
-UI["2b4"] = Instance.new("TextButton", UI["291"])
-UI["2b4"]["BorderSizePixel"] = 0
-UI["2b4"]["TextSize"] = 14
-UI["2b4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2b4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2b4"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-UI["2b4"]["ZIndex"] = 2
-UI["2b4"]["Size"] = UDim2.new(0, 112, 0, 35)
-UI["2b4"]["BackgroundTransparency"] = 0.85
-UI["2b4"]["Name"] = [[Stats]]
-UI["2b4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2b4"]["Text"] = [[STATS]]
-UI["2b4"]["Position"] = UDim2.new(0.06895, 0, 1.08237, 0)
+UI["2b1"] = Instance.new("TextButton", UI["28e"])
+UI["2b1"]["BorderSizePixel"] = 0
+UI["2b1"]["TextSize"] = 14
+UI["2b1"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2b1"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2b1"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["2b1"]["ZIndex"] = 2
+UI["2b1"]["Size"] = UDim2.new(0, 112, 0, 35)
+UI["2b1"]["BackgroundTransparency"] = 0.85
+UI["2b1"]["Name"] = [[Stats]]
+UI["2b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2b1"]["Text"] = [[STATS]]
+UI["2b1"]["Position"] = UDim2.new(0.06895, 0, 1.08237, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Stats.UICorner \\ --
-UI["2b5"] = Instance.new("UICorner", UI["2b4"])
+UI["2b2"] = Instance.new("UICorner", UI["2b1"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Stats.UIGradient \\ --
-UI["2b6"] = Instance.new("UIGradient", UI["2b4"])
-UI["2b6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
+UI["2b3"] = Instance.new("UIGradient", UI["2b1"])
+UI["2b3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(43, 189, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Stats.Click Sound1 \\ --
-UI["2b7"] = Instance.new("LocalScript", UI["2b4"])
-UI["2b7"]["Name"] = [[Click Sound1]]
+UI["2b4"] = Instance.new("LocalScript", UI["2b1"])
+UI["2b4"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.Socials \\ --
-UI["2b8"] = Instance.new("ImageButton", UI["289"])
-UI["2b8"]["BorderSizePixel"] = 0
-UI["2b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2b8"]["ZIndex"] = 5
-UI["2b8"]["Image"] = [[rbxassetid://72435266542170]]
-UI["2b8"]["Size"] = UDim2.new(0, 35, 0, 35)
-UI["2b8"]["BackgroundTransparency"] = 1
-UI["2b8"]["Name"] = [[Socials]]
-UI["2b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2b8"]["Position"] = UDim2.new(0.00871, 0, 0.0185, 0)
+UI["2b5"] = Instance.new("ImageButton", UI["289"])
+UI["2b5"]["BorderSizePixel"] = 0
+UI["2b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2b5"]["ZIndex"] = 5
+UI["2b5"]["Image"] = [[rbxassetid://72435266542170]]
+UI["2b5"]["Size"] = UDim2.new(0, 35, 0, 35)
+UI["2b5"]["BackgroundTransparency"] = 1
+UI["2b5"]["Name"] = [[Socials]]
+UI["2b5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2b5"]["Position"] = UDim2.new(0.00871, 0, 0.0185, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.Socials.UICorner \\ --
-UI["2b9"] = Instance.new("UICorner", UI["2b8"])
-UI["2b9"]["CornerRadius"] = UDim.new(0, 10)
-
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.Socials.Click Sound1 \\ --
-UI["2ba"] = Instance.new("LocalScript", UI["2b8"])
-UI["2ba"]["Name"] = [[Click Sound1]]
+UI["2b6"] = Instance.new("UICorner", UI["2b5"])
+UI["2b6"]["CornerRadius"] = UDim.new(0, 10)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.Settings \\ --
-UI["2bb"] = Instance.new("ImageButton", UI["289"])
-UI["2bb"]["BorderSizePixel"] = 0
-UI["2bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2bb"]["ZIndex"] = 10
-UI["2bb"]["Image"] = [[rbxassetid://136372388959380]]
-UI["2bb"]["Size"] = UDim2.new(0, 34, 0, 35)
-UI["2bb"]["BackgroundTransparency"] = 1
-UI["2bb"]["Name"] = [[Settings]]
-UI["2bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2bb"]["Position"] = UDim2.new(0.14125, 5, 0.01864, 0)
+UI["2b7"] = Instance.new("ImageButton", UI["289"])
+UI["2b7"]["BorderSizePixel"] = 0
+UI["2b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2b7"]["ZIndex"] = 10
+UI["2b7"]["Image"] = [[rbxassetid://136372388959380]]
+UI["2b7"]["Size"] = UDim2.new(0, 34, 0, 35)
+UI["2b7"]["BackgroundTransparency"] = 1
+UI["2b7"]["Name"] = [[Settings]]
+UI["2b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2b7"]["Position"] = UDim2.new(0.14125, 5, 0.01864, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.Settings.UICorner \\ --
-UI["2bc"] = Instance.new("UICorner", UI["2bb"])
-UI["2bc"]["CornerRadius"] = UDim.new(0, 10)
-
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.Settings.animation \\ --
-UI["2bd"] = Instance.new("LocalScript", UI["2bb"])
-UI["2bd"]["Name"] = [[animation]]
+UI["2b8"] = Instance.new("UICorner", UI["2b7"])
+UI["2b8"]["CornerRadius"] = UDim.new(0, 10)
 
 -- // StarterGui.RobloxUpdater1.MainTab.plrname \\ --
-UI["2be"] = Instance.new("TextLabel", UI["5"])
-UI["2be"]["TextWrapped"] = true
-UI["2be"]["BorderSizePixel"] = 0
-UI["2be"]["TextTransparency"] = 0.37
-UI["2be"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2be"]["TextSize"] = 17
-UI["2be"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-UI["2be"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2be"]["BackgroundTransparency"] = 1
-UI["2be"]["Size"] = UDim2.new(0, 129, 0, 35)
-UI["2be"]["Visible"] = false
-UI["2be"]["BorderColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2be"]["Text"] = [[Loading...]]
-UI["2be"]["Name"] = [[plrname]]
-UI["2be"]["Position"] = UDim2.new(0.38676, 0, 0.01977, 0)
+UI["2b9"] = Instance.new("TextLabel", UI["5"])
+UI["2b9"]["TextWrapped"] = true
+UI["2b9"]["BorderSizePixel"] = 0
+UI["2b9"]["TextTransparency"] = 0.37
+UI["2b9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2b9"]["TextSize"] = 17
+UI["2b9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+UI["2b9"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2b9"]["BackgroundTransparency"] = 1
+UI["2b9"]["Size"] = UDim2.new(0, 129, 0, 35)
+UI["2b9"]["Visible"] = false
+UI["2b9"]["BorderColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2b9"]["Text"] = [[Loading...]]
+UI["2b9"]["Name"] = [[plrname]]
+UI["2b9"]["Position"] = UDim2.new(0.38676, 0, 0.01977, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame \\ --
-UI["2bf"] = Instance.new("Frame", UI["5"])
-UI["2bf"]["BorderSizePixel"] = 0
-UI["2bf"]["SelectionOrder"] = 6
-UI["2bf"]["BackgroundColor3"] = Color3.fromRGB(34, 34, 34)
-UI["2bf"]["Size"] = UDim2.new(0, 574, 0, 55)
-UI["2bf"]["Position"] = UDim2.new(0, 0, -0.00116, 0)
-UI["2bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2bf"]["Name"] = [[TabsFrame]]
+UI["2ba"] = Instance.new("Frame", UI["5"])
+UI["2ba"]["BorderSizePixel"] = 0
+UI["2ba"]["SelectionOrder"] = 6
+UI["2ba"]["BackgroundColor3"] = Color3.fromRGB(34, 34, 34)
+UI["2ba"]["Size"] = UDim2.new(0, 574, 0, 55)
+UI["2ba"]["Position"] = UDim2.new(0, 0, -0.00116, 0)
+UI["2ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2ba"]["Name"] = [[TabsFrame]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.UICorner \\ --
-UI["2c0"] = Instance.new("UICorner", UI["2bf"])
+UI["2bb"] = Instance.new("UICorner", UI["2ba"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Name \\ --
-UI["2c1"] = Instance.new("TextLabel", UI["2bf"])
-UI["2c1"]["TextWrapped"] = true
-UI["2c1"]["Interactable"] = false
-UI["2c1"]["ZIndex"] = 9
-UI["2c1"]["BorderSizePixel"] = 0
-UI["2c1"]["AutoLocalize"] = false
-UI["2c1"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2c1"]["SelectionOrder"] = 4
-UI["2c1"]["BackgroundColor3"] = Color3.fromRGB(60, 60, 60)
-UI["2c1"]["TextSize"] = 18
-UI["2c1"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-UI["2c1"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2c1"]["RichText"] = true
-UI["2c1"]["Size"] = UDim2.new(0, 152, 0, 35)
-UI["2c1"]["BorderColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2c1"]["Text"] = [[VortexHub®]]
-UI["2c1"]["Name"] = [[Name]]
-UI["2c1"]["Position"] = UDim2.new(0.38723, 0, 0.09697, 0)
+UI["2bc"] = Instance.new("TextLabel", UI["2ba"])
+UI["2bc"]["TextWrapped"] = true
+UI["2bc"]["Interactable"] = false
+UI["2bc"]["ZIndex"] = 9
+UI["2bc"]["BorderSizePixel"] = 0
+UI["2bc"]["AutoLocalize"] = false
+UI["2bc"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2bc"]["SelectionOrder"] = 4
+UI["2bc"]["BackgroundColor3"] = Color3.fromRGB(60, 60, 60)
+UI["2bc"]["TextSize"] = 18
+UI["2bc"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+UI["2bc"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2bc"]["RichText"] = true
+UI["2bc"]["Size"] = UDim2.new(0, 152, 0, 35)
+UI["2bc"]["BorderColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2bc"]["Text"] = [[VortexHub®]]
+UI["2bc"]["Name"] = [[Name]]
+UI["2bc"]["Position"] = UDim2.new(0.38723, 0, 0.09697, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Name.UIGradient \\ --
-UI["2c2"] = Instance.new("UIGradient", UI["2c1"])
-UI["2c2"]["Rotation"] = -180
-UI["2c2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(136, 136, 136))}
+UI["2bd"] = Instance.new("UIGradient", UI["2bc"])
+UI["2bd"]["Rotation"] = -180
+UI["2bd"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(136, 136, 136))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Name.UICorner \\ --
-UI["2c3"] = Instance.new("UICorner", UI["2c1"])
-UI["2c3"]["CornerRadius"] = UDim.new(0, 10)
+UI["2be"] = Instance.new("UICorner", UI["2bc"])
+UI["2be"]["CornerRadius"] = UDim.new(0, 10)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Name.LocalScript \\ --
-UI["2c4"] = Instance.new("LocalScript", UI["2c1"])
+UI["2bf"] = Instance.new("LocalScript", UI["2bc"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Tabs Imgae \\ --
-UI["2c5"] = Instance.new("ImageLabel", UI["2bf"])
-UI["2c5"]["BorderSizePixel"] = 0
-UI["2c5"]["SelectionOrder"] = 4
-UI["2c5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2c5"]["Image"] = [[rbxassetid://135834069695816]]
-UI["2c5"]["Size"] = UDim2.new(0, 574, 0, 54)
-UI["2c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2c5"]["BackgroundTransparency"] = 1
-UI["2c5"]["Name"] = [[Tabs Imgae]]
-UI["2c5"]["Position"] = UDim2.new(0, 0, 0, 0)
+UI["2c0"] = Instance.new("ImageLabel", UI["2ba"])
+UI["2c0"]["BorderSizePixel"] = 0
+UI["2c0"]["SelectionOrder"] = 4
+UI["2c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2c0"]["Image"] = [[rbxassetid://135834069695816]]
+UI["2c0"]["Size"] = UDim2.new(0, 574, 0, 54)
+UI["2c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2c0"]["BackgroundTransparency"] = 1
+UI["2c0"]["Name"] = [[Tabs Imgae]]
+UI["2c0"]["Position"] = UDim2.new(0, 0, 0, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Tabs Imgae.UICorner \\ --
-UI["2c6"] = Instance.new("UICorner", UI["2c5"])
+UI["2c1"] = Instance.new("UICorner", UI["2c0"])
 
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Tabs Imgae.UIGradient \\ --
-UI["2c7"] = Instance.new("UIGradient", UI["2c5"])
-UI["2c7"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(217, 217, 217)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(199, 199, 199))}
+UI["2c2"] = Instance.new("UIGradient", UI["2c0"])
+UI["2c2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(217, 217, 217)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(199, 199, 199))}
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Tabs Imgae.ImageLabel \\ --
-UI["2c8"] = Instance.new("ImageLabel", UI["2c5"])
-UI["2c8"]["BorderSizePixel"] = 0
-UI["2c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2c8"]["Image"] = [[rbxassetid://86086191069014]]
-UI["2c8"]["Size"] = UDim2.new(0, 574, 0, 7)
-UI["2c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2c8"]["Position"] = UDim2.new(0, 0, 0.88194, 0)
+UI["2c3"] = Instance.new("ImageLabel", UI["2c0"])
+UI["2c3"]["BorderSizePixel"] = 0
+UI["2c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2c3"]["Image"] = [[rbxassetid://86086191069014]]
+UI["2c3"]["Size"] = UDim2.new(0, 574, 0, 7)
+UI["2c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2c3"]["Position"] = UDim2.new(0, 0, 0.88194, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI \\ --
-UI["2c9"] = Instance.new("ImageButton", UI["2bf"])
-UI["2c9"]["BorderSizePixel"] = 0
-UI["2c9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
-UI["2c9"]["Image"] = [[rbxassetid://82227394551742]]
-UI["2c9"]["Size"] = UDim2.new(0, 35, 0, 35)
-UI["2c9"]["BackgroundTransparency"] = 1
-UI["2c9"]["Name"] = [[CUI]]
-UI["2c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2c9"]["Position"] = UDim2.new(0.84683, 5, 0.09382, 0)
+UI["2c4"] = Instance.new("ImageButton", UI["2ba"])
+UI["2c4"]["BorderSizePixel"] = 0
+UI["2c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["2c4"]["Image"] = [[rbxassetid://82227394551742]]
+UI["2c4"]["Size"] = UDim2.new(0, 35, 0, 35)
+UI["2c4"]["BackgroundTransparency"] = 1
+UI["2c4"]["Name"] = [[CUI]]
+UI["2c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2c4"]["Position"] = UDim2.new(0.84683, 5, 0.09382, 0)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.UICorner \\ --
-UI["2ca"] = Instance.new("UICorner", UI["2c9"])
-UI["2ca"]["CornerRadius"] = UDim.new(0, 10)
+UI["2c5"] = Instance.new("UICorner", UI["2c4"])
+UI["2c5"]["CornerRadius"] = UDim.new(0, 10)
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.CloseScript \\ --
-UI["2cb"] = Instance.new("LocalScript", UI["2c9"])
-UI["2cb"]["Name"] = [[CloseScript]]
+UI["2c6"] = Instance.new("LocalScript", UI["2c4"])
+UI["2c6"]["Name"] = [[CloseScript]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.animation \\ --
-UI["2cc"] = Instance.new("LocalScript", UI["2c9"])
-UI["2cc"]["Name"] = [[animation]]
+UI["2c7"] = Instance.new("LocalScript", UI["2c4"])
+UI["2c7"]["Name"] = [[animation]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.Click Sound1 \\ --
-UI["2cd"] = Instance.new("LocalScript", UI["2c9"])
-UI["2cd"]["Name"] = [[Click Sound1]]
+UI["2c8"] = Instance.new("LocalScript", UI["2c4"])
+UI["2c8"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.Click Sound1 \\ --
-UI["2ce"] = Instance.new("LocalScript", UI["2c9"])
-UI["2ce"]["Name"] = [[Click Sound1]]
+UI["2c9"] = Instance.new("LocalScript", UI["2c4"])
+UI["2c9"]["Name"] = [[Click Sound1]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Site Line \\ --
-UI["2cf"] = Instance.new("Frame", UI["5"])
-UI["2cf"]["BorderSizePixel"] = 0
-UI["2cf"]["BackgroundColor3"] = Color3.fromRGB(60, 60, 60)
-UI["2cf"]["Size"] = UDim2.new(0, 3, 0, 256)
-UI["2cf"]["Position"] = UDim2.new(0.22, 0, 0.17569, 0)
-UI["2cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-UI["2cf"]["Name"] = [[Site Line]]
+UI["2ca"] = Instance.new("Frame", UI["5"])
+UI["2ca"]["BorderSizePixel"] = 0
+UI["2ca"]["BackgroundColor3"] = Color3.fromRGB(60, 60, 60)
+UI["2ca"]["Size"] = UDim2.new(0, 3, 0, 256)
+UI["2ca"]["Position"] = UDim2.new(0.22, 0, 0.17569, 0)
+UI["2ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2ca"]["Name"] = [[Site Line]]
 
 -- // StarterGui.RobloxUpdater1.MainTab.Settings \\ --
-UI["2d0"] = Instance.new("Configuration", UI["5"])
-UI["2d0"]["Name"] = [[Settings]]
+UI["2cb"] = Instance.new("Configuration", UI["5"])
+UI["2cb"]["Name"] = [[Settings]]
 -- Attributes
-UI["2d0"]:SetAttribute([[FlyKey]], [[V]])
-UI["2d0"]:SetAttribute([[SilentAimKey]], [[K]])
-UI["2d0"]:SetAttribute([[CarFlyKey]], [[X]])
-UI["2d0"]:SetAttribute([[AimBotKey]], [[L]])
+UI["2cb"]:SetAttribute([[FlyKey]], [[V]])
+UI["2cb"]:SetAttribute([[SilentAimKey]], [[K]])
+UI["2cb"]:SetAttribute([[CarFlyKey]], [[X]])
+UI["2cb"]:SetAttribute([[AimBotKey]], [[L]])
 
 -- // StarterGui.RobloxUpdater1.Antimod \\ --
-UI["2d1"] = Instance.new("LocalScript", UI["1"])
-UI["2d1"]["Name"] = [[Antimod]]
+UI["2cc"] = Instance.new("LocalScript", UI["1"])
+UI["2cc"]["Name"] = [[Antimod]]
 -- Attributes
-UI["2d1"]:SetAttribute([[sdsdsds]], [[]])
+UI["2cc"]:SetAttribute([[sdsdsds]], [[]])
 
 -- // StarterGui.RobloxUpdater1.AntiAFK \\ --
-UI["2d2"] = Instance.new("LocalScript", UI["1"])
-UI["2d2"]["Name"] = [[AntiAFK]]
+UI["2cd"] = Instance.new("LocalScript", UI["1"])
+UI["2cd"]["Name"] = [[AntiAFK]]
 
 -- // StarterGui.RobloxUpdater1.B-W24 \\ --
 local function SCRIPT_2()
@@ -6158,8 +6138,8 @@ local script = UI["2a"]
 			end
 	
 			local startPosition = car.PrimaryPart.Position
-			local highStart = startPosition + Vector3.new(0, 200, 0)
-			local highDestination = destination + Vector3.new(0, 200, 0)
+			local highStart = startPosition + Vector3.new(0, - 6, 0)
+			local highDestination = destination + Vector3.new(0, - 6, 0)
 	
 			local function moveTo(targetPosition, useHigh)
 				local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -7867,7 +7847,6 @@ local script = UI["132"]
 			end
 		end
 	end)
-	
 end
 task.spawn(SCRIPT_132)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Vehicle.Carfly.animation \\ --
@@ -8291,8 +8270,8 @@ local script = UI["157"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, -60, 0)
-		local highDestination = destination + Vector3.new(0, -60, 0)
+		local highStart = startPosition + Vector3.new(0, -6, 0)
+		local highDestination = destination + Vector3.new(0, -6, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8497,8 +8476,8 @@ local script = UI["174"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, -60, 0)
-		local highDestination = destination + Vector3.new(0, -60, 0)
+		local highStart = startPosition + Vector3.new(0, -6, 0)
+		local highDestination = destination + Vector3.new(0, -6, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8616,8 +8595,8 @@ local script = UI["18f"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, -60, 0)
-		local highDestination = destination + Vector3.new(0, -60, 0)
+		local highStart = startPosition + Vector3.new(0, - 6, 0)
+		local highDestination = destination + Vector3.new(0, - 6, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -9289,8 +9268,8 @@ local script = UI["1ba"]
 end
 task.spawn(SCRIPT_1ba)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.LocalScript \\ --
-local function SCRIPT_1c1()
-local script = UI["1c1"]
+local function SCRIPT_1c0()
+local script = UI["1c0"]
 	local button = script.Parent  
 	local monitoringActive = false  
 	
@@ -9327,10 +9306,10 @@ local script = UI["1c1"]
 	button.MouseButton1Click:Connect(toggleMonitoring)
 	
 end
-task.spawn(SCRIPT_1c1)
+task.spawn(SCRIPT_1c0)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.animation \\ --
-local function SCRIPT_1c3()
-local script = UI["1c3"]
+local function SCRIPT_1c2()
+local script = UI["1c2"]
 	local button = script.Parent
 	local TweenService = game:GetService("TweenService")
 	
@@ -9364,10 +9343,10 @@ local script = UI["1c3"]
 	button.MouseLeave:Connect(onMouseLeave)
 	
 end
-task.spawn(SCRIPT_1c3)
+task.spawn(SCRIPT_1c2)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiTaser.Click Sound \\ --
-local function SCRIPT_1c5()
-local script = UI["1c5"]
+local function SCRIPT_1c4()
+local script = UI["1c4"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -9380,10 +9359,10 @@ local script = UI["1c5"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_1c5)
+task.spawn(SCRIPT_1c4)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.LocalScript \\ --
-local function SCRIPT_1c9()
-local script = UI["1c9"]
+local function SCRIPT_1c8()
+local script = UI["1c8"]
 	-- Hole den VoiceChatService
 	local voiceChatService = game:GetService("VoiceChatService")
 	local player = game.Players.LocalPlayer
@@ -9419,10 +9398,10 @@ local script = UI["1c9"]
 	button.MouseButton1Click:Connect(toggleVoiceChat)
 	
 end
-task.spawn(SCRIPT_1c9)
+task.spawn(SCRIPT_1c8)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.animation \\ --
-local function SCRIPT_1cb()
-local script = UI["1cb"]
+local function SCRIPT_1ca()
+local script = UI["1ca"]
 	local button = script.Parent
 	local TweenService = game:GetService("TweenService")
 	
@@ -9456,10 +9435,10 @@ local script = UI["1cb"]
 	button.MouseLeave:Connect(onMouseLeave)
 	
 end
-task.spawn(SCRIPT_1cb)
+task.spawn(SCRIPT_1ca)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiVCBan.Click Sound \\ --
-local function SCRIPT_1cd()
-local script = UI["1cd"]
+local function SCRIPT_1cc()
+local script = UI["1cc"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -9472,10 +9451,10 @@ local script = UI["1cd"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_1cd)
+task.spawn(SCRIPT_1cc)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.LocalScript \\ --
-local function SCRIPT_1d1()
-local script = UI["1d1"]
+local function SCRIPT_1d0()
+local script = UI["1d0"]
 	local player = game:GetService("Players").LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local rootPart = character:WaitForChild("HumanoidRootPart")
@@ -9591,10 +9570,10 @@ local script = UI["1d1"]
 	-- Starte die Überprüfung
 	checkPolicePlayers()
 end
-task.spawn(SCRIPT_1d1)
+task.spawn(SCRIPT_1d0)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.animation \\ --
-local function SCRIPT_1d3()
-local script = UI["1d3"]
+local function SCRIPT_1d2()
+local script = UI["1d2"]
 	local button = script.Parent
 	local TweenService = game:GetService("TweenService")
 	
@@ -9628,10 +9607,10 @@ local script = UI["1d3"]
 	button.MouseLeave:Connect(onMouseLeave)
 	
 end
-task.spawn(SCRIPT_1d3)
+task.spawn(SCRIPT_1d2)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.MAIN.ScrollingFrame2.AntiArrest.Click Sound \\ --
-local function SCRIPT_1d5()
-local script = UI["1d5"]
+local function SCRIPT_1d4()
+local script = UI["1d4"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -9644,7 +9623,7 @@ local script = UI["1d5"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_1d5)
+task.spawn(SCRIPT_1d4)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Aimbot.Aimbot.AimbotScript \\ --
 local function SCRIPT_1de()
 local script = UI["1de"]
@@ -11905,99 +11884,9 @@ local script = UI["288"]
 	
 end
 task.spawn(SCRIPT_288)
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.XUI.animation \\ --
-local function SCRIPT_28c()
-local script = UI["28c"]
-	local button = script.Parent
-	local TweenService = game:GetService("TweenService")
-	
-	-- Definiere die Animation (Tween)
-	local tweenInfo = TweenInfo.new(
-		0.2, -- Zeit in Sekunden (kürzer für schnellere Animation)
-		Enum.EasingStyle.Quad, -- Easing-Stil
-		Enum.EasingDirection.Out -- Easing-Richtung
-	)
-	
-	local goalHover = {
-		Position = UDim2.new(button.Position.X.Scale, button.Position.X.Offset, button.Position.Y.Scale - 0.01, button.Position.Y.Offset) -- Button um 5% nach oben bewegen
-	}
-	
-	local goalNormal = {
-		Position = UDim2.new(button.Position.X.Scale, button.Position.X.Offset, button.Position.Y.Scale, button.Position.Y.Offset) -- Ursprüngliche Position zurücksetzen
-	}
-	
-	-- Funktion, um die Animation zu starten
-	local function onMouseEnter()
-		TweenService:Create(button, tweenInfo, goalHover):Play() -- Starte die Hover-Animation
-	end
-	
-	-- Funktion, um die Animation zu stoppen
-	local function onMouseLeave()
-		TweenService:Create(button, tweenInfo, goalNormal):Play() -- Setze die Position zurück
-	end
-	
-	-- Verbindung der Maus-Ereignisse
-	button.MouseEnter:Connect(onMouseEnter)
-	button.MouseLeave:Connect(onMouseLeave)
-	
-end
-task.spawn(SCRIPT_28c)
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.STARTUP.animation \\ --
-local function SCRIPT_28f()
-local script = UI["28f"]
-	local button = script.Parent
-	local TweenService = game:GetService("TweenService")
-	
-	-- Definiere die Animation (Tween)
-	local tweenInfo = TweenInfo.new(
-		0.2, -- Zeit in Sekunden (kürzer für schnellere Animation)
-		Enum.EasingStyle.Quad, -- Easing-Stil
-		Enum.EasingDirection.Out -- Easing-Richtung
-	)
-	
-	local goalHover = {
-		Position = UDim2.new(button.Position.X.Scale, button.Position.X.Offset, button.Position.Y.Scale - 0.01, button.Position.Y.Offset) -- Button um 5% nach oben bewegen
-	}
-	
-	local goalNormal = {
-		Position = UDim2.new(button.Position.X.Scale, button.Position.X.Offset, button.Position.Y.Scale, button.Position.Y.Offset) -- Ursprüngliche Position zurücksetzen
-	}
-	
-	-- Funktion, um die Animation zu starten
-	local function onMouseEnter()
-		TweenService:Create(button, tweenInfo, goalHover):Play() -- Starte die Hover-Animation
-	end
-	
-	-- Funktion, um die Animation zu stoppen
-	local function onMouseLeave()
-		TweenService:Create(button, tweenInfo, goalNormal):Play() -- Setze die Position zurück
-	end
-	
-	-- Verbindung der Maus-Ereignisse
-	button.MouseEnter:Connect(onMouseEnter)
-	button.MouseLeave:Connect(onMouseLeave)
-	
-end
-task.spawn(SCRIPT_28f)
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.STARTUP.Click Sound1 \\ --
-local function SCRIPT_290()
-local script = UI["290"]
-	function Click(mouse)
-	
-		local sound = Instance.new("Sound")
-		sound.SoundId = "rbxassetid://6895079853"
-		sound.Looped = false
-		sound.Parent = workspace
-		sound:Play()
-	
-	end
-	
-	script.Parent.MouseButton1Down:connect(Click)
-end
-task.spawn(SCRIPT_290)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Aimbot.Click Sound1 \\ --
-local function SCRIPT_295()
-local script = UI["295"]
+local function SCRIPT_292()
+local script = UI["292"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12010,10 +11899,10 @@ local script = UI["295"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_295)
+task.spawn(SCRIPT_292)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.MAIN.Click Sound1 \\ --
-local function SCRIPT_299()
-local script = UI["299"]
+local function SCRIPT_296()
+local script = UI["296"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12026,10 +11915,10 @@ local script = UI["299"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_299)
+task.spawn(SCRIPT_296)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Misc.Click Sound1 \\ --
-local function SCRIPT_29d()
-local script = UI["29d"]
+local function SCRIPT_29a()
+local script = UI["29a"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12042,10 +11931,10 @@ local script = UI["29d"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_29d)
+task.spawn(SCRIPT_29a)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Teleport.Click Sound1 \\ --
-local function SCRIPT_2a1()
-local script = UI["2a1"]
+local function SCRIPT_29e()
+local script = UI["29e"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12058,10 +11947,10 @@ local script = UI["2a1"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2a1)
+task.spawn(SCRIPT_29e)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.VISUALS.Click Sound1 \\ --
-local function SCRIPT_2a5()
-local script = UI["2a5"]
+local function SCRIPT_2a2()
+local script = UI["2a2"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12074,10 +11963,10 @@ local script = UI["2a5"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2a5)
+task.spawn(SCRIPT_2a2)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Vehicle.Click Sound1 \\ --
-local function SCRIPT_2a9()
-local script = UI["2a9"]
+local function SCRIPT_2a6()
+local script = UI["2a6"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12090,10 +11979,10 @@ local script = UI["2a9"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2a9)
+task.spawn(SCRIPT_2a6)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.GunMods.Click Sound1 \\ --
-local function SCRIPT_2ad()
-local script = UI["2ad"]
+local function SCRIPT_2aa()
+local script = UI["2aa"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12106,10 +11995,10 @@ local script = UI["2ad"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2ad)
+task.spawn(SCRIPT_2aa)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Server.Click Sound1 \\ --
-local function SCRIPT_2b1()
-local script = UI["2b1"]
+local function SCRIPT_2ae()
+local script = UI["2ae"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12122,10 +12011,10 @@ local script = UI["2b1"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2b1)
+task.spawn(SCRIPT_2ae)
 -- // StarterGui.RobloxUpdater1.MainTab.Buttons.ScrollingFrame.Stats.Click Sound1 \\ --
-local function SCRIPT_2b7()
-local script = UI["2b7"]
+local function SCRIPT_2b4()
+local script = UI["2b4"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12138,63 +12027,10 @@ local script = UI["2b7"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2b7)
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.Socials.Click Sound1 \\ --
-local function SCRIPT_2ba()
-local script = UI["2ba"]
-	function Click(mouse)
-	
-		local sound = Instance.new("Sound")
-		sound.SoundId = "rbxassetid://6895079853"
-		sound.Looped = false
-		sound.Parent = workspace
-		sound:Play()
-	
-	end
-	
-	script.Parent.MouseButton1Down:connect(Click)
-end
-task.spawn(SCRIPT_2ba)
--- // StarterGui.RobloxUpdater1.MainTab.Buttons.Settings.animation \\ --
-local function SCRIPT_2bd()
-local script = UI["2bd"]
-	local button = script.Parent
-	local TweenService = game:GetService("TweenService")
-	
-	-- Definiere die Animation (Tween)
-	local tweenInfo = TweenInfo.new(
-		0.2, -- Zeit in Sekunden (kürzer für schnellere Animation)
-		Enum.EasingStyle.Quad, -- Easing-Stil
-		Enum.EasingDirection.Out -- Easing-Richtung
-	)
-	
-	local goalHover = {
-		Position = UDim2.new(button.Position.X.Scale, button.Position.X.Offset, button.Position.Y.Scale - 0.01, button.Position.Y.Offset) -- Button um 5% nach oben bewegen
-	}
-	
-	local goalNormal = {
-		Position = UDim2.new(button.Position.X.Scale, button.Position.X.Offset, button.Position.Y.Scale, button.Position.Y.Offset) -- Ursprüngliche Position zurücksetzen
-	}
-	
-	-- Funktion, um die Animation zu starten
-	local function onMouseEnter()
-		TweenService:Create(button, tweenInfo, goalHover):Play() -- Starte die Hover-Animation
-	end
-	
-	-- Funktion, um die Animation zu stoppen
-	local function onMouseLeave()
-		TweenService:Create(button, tweenInfo, goalNormal):Play() -- Setze die Position zurück
-	end
-	
-	-- Verbindung der Maus-Ereignisse
-	button.MouseEnter:Connect(onMouseEnter)
-	button.MouseLeave:Connect(onMouseLeave)
-	
-end
-task.spawn(SCRIPT_2bd)
+task.spawn(SCRIPT_2b4)
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.Name.LocalScript \\ --
-local function SCRIPT_2c4()
-local script = UI["2c4"]
+local function SCRIPT_2bf()
+local script = UI["2bf"]
 	local textLabel = script.Parent -- Stelle sicher, dass dieses Skript unter einem TextLabel in StarterGui ist
 	local texts = {" VortexHub®", " Nexar®"} -- Liste der Texte
 	local interval = 3 -- Sekunden zwischen den Änderungen
@@ -12226,10 +12062,10 @@ local script = UI["2c4"]
 	    end
 	end
 end
-task.spawn(SCRIPT_2c4)
+task.spawn(SCRIPT_2bf)
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.CloseScript \\ --
-local function SCRIPT_2cb()
-local script = UI["2cb"]
+local function SCRIPT_2c6()
+local script = UI["2c6"]
 	local frame = script.Parent.Parent.Parent.Parent.MainTab
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -12241,10 +12077,10 @@ local script = UI["2cb"]
 	end)
 	
 end
-task.spawn(SCRIPT_2cb)
+task.spawn(SCRIPT_2c6)
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.animation \\ --
-local function SCRIPT_2cc()
-local script = UI["2cc"]
+local function SCRIPT_2c7()
+local script = UI["2c7"]
 	local button = script.Parent
 	local TweenService = game:GetService("TweenService")
 	
@@ -12278,10 +12114,10 @@ local script = UI["2cc"]
 	button.MouseLeave:Connect(onMouseLeave)
 	
 end
-task.spawn(SCRIPT_2cc)
+task.spawn(SCRIPT_2c7)
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.Click Sound1 \\ --
-local function SCRIPT_2cd()
-local script = UI["2cd"]
+local function SCRIPT_2c8()
+local script = UI["2c8"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12294,10 +12130,10 @@ local script = UI["2cd"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2cd)
+task.spawn(SCRIPT_2c8)
 -- // StarterGui.RobloxUpdater1.MainTab.TabsFrame.CUI.Click Sound1 \\ --
-local function SCRIPT_2ce()
-local script = UI["2ce"]
+local function SCRIPT_2c9()
+local script = UI["2c9"]
 	function Click(mouse)
 	
 		local sound = Instance.new("Sound")
@@ -12310,10 +12146,10 @@ local script = UI["2ce"]
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-task.spawn(SCRIPT_2ce)
+task.spawn(SCRIPT_2c9)
 -- // StarterGui.RobloxUpdater1.Antimod \\ --
-local function SCRIPT_2d1()
-local script = UI["2d1"]
+local function SCRIPT_2cc()
+local script = UI["2cc"]
 	local groupId = 12563021
 	local requiredRoles = {"Contributer", "Staff", "Dev"}
 	local kickMessage = "🌊 YOU HAVE BEEN SAVED BY VORTEX: Auto-kick, a moderator has joined the lobby!"
@@ -12354,10 +12190,10 @@ local script = UI["2d1"]
 		checkPlayers()
 	end
 end
-task.spawn(SCRIPT_2d1)
+task.spawn(SCRIPT_2cc)
 -- // StarterGui.RobloxUpdater1.AntiAFK \\ --
-local function SCRIPT_2d2()
-local script = UI["2d2"]
+local function SCRIPT_2cd()
+local script = UI["2cd"]
 	local Players = game:GetService("Players")
 	local VirtualUser = game:GetService("VirtualUser")
 	
@@ -12384,6 +12220,6 @@ local script = UI["2d2"]
 		enableAntiAFK()
 	end
 end
-task.spawn(SCRIPT_2d2)
+task.spawn(SCRIPT_2cd)
 
 return UI["1"], require;
