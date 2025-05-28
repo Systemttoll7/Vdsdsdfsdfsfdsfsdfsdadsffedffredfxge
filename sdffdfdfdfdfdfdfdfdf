@@ -5925,7 +5925,7 @@ local script = UI["12"]
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	local playerListFrame = script.Parent.ScrollingFrame2
-	local wantedRemoteEvent = ReplicatedStorage["jy1"]["5518f74c-47d4-4e3b-a068-4f3eb6611dce"]
+	local wantedRemoteEvent = ReplicatedStorage["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
 	
 	-- Tabelle für gewünschte Spieler
 	local wantedPlayers = {}
@@ -6138,8 +6138,8 @@ local script = UI["2a"]
 			end
 	
 			local startPosition = car.PrimaryPart.Position
-			local highStart = startPosition + Vector3.new(0, - 6, 0)
-			local highDestination = destination + Vector3.new(0, - 6, 0)
+			local highStart = startPosition + Vector3.new(0, - 5, 0)
+			local highDestination = destination + Vector3.new(0, - 5, 0)
 	
 			local function moveTo(targetPosition, useHigh)
 				local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -6312,7 +6312,7 @@ task.spawn(SCRIPT_34)
 local function SCRIPT_3b()
 local script = UI["3b"]
 	local wantedPlayers = {}
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["jy1"]["5518f74c-47d4-4e3b-a068-4f3eb6611dce"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
 	
 	local function updateWanted(eventData)
 		wantedPlayers = {}
@@ -7330,7 +7330,7 @@ task.spawn(SCRIPT_102)
 local function SCRIPT_103()
 local script = UI["103"]
 	local RunService = game:GetService("RunService")
-	local radarRemoteEvent = game:GetService("ReplicatedStorage").jy1["013cf969-13ef-48cd-a8c9-71f649056730"]
+	local radarRemoteEvent = game:GetService("ReplicatedStorage").Zww["3f07c7c3-ebdc-4427-9adc-87d016cd729a"]
 	
 	local autoRadarToggle = false
 	
@@ -8216,44 +8216,6 @@ local script = UI["157"]
 	local function getLocationCFrame(location)
 		if location == "Bank" then 
 			return CFrame.new(-1174.68, 5.87, 3209.03)
-		elseif location == "Safe Zone" then 
-			return CFrame.new(709.764, 94.387, -657.761)
-		elseif location == "Vehicle Garage" then 
-			return CFrame.new(-95.965, 5.614, 453.769)
-		elseif location == "Yellow Container" then 
-			return CFrame.new(1178.71, 28.696, 2321.66)
-		elseif location == "Green Container" then 
-			return CFrame.new(1182.71, 28.696, 2158.84)
-		elseif location == "Jewelry" then 
-			return CFrame.new(-346.63, 5.87, 3572.74)
-		elseif location == "Car Dealership" then 
-			return CFrame.new(-1454.02, 5.615, 940.83)
-		elseif location == "Ares Fuel" then 
-			return CFrame.new(-870.86, 5.622, 1505.16)
-		elseif location == "Gas n Go Fuel" then 
-			return CFrame.new(-1544.4, 5.619, 3802.16)
-		elseif location == "Ossu Fuel" then 
-			return CFrame.new(-27.55, 5.622, -754.6)
-		elseif location == "Hospital" then 
-			return CFrame.new(-293.16, 5.627, 1053.98, -0.0149, 0.0017, 0.9999, 0.0001, 0.999998569, -0.0017, -0.999889, 0.0001, -0.0149)
-		elseif location == "Prison" then 
-			return CFrame.new(-514.34, 5.615, 2795.94)
-		elseif location == "Police Station" then 
-			return CFrame.new(-1658.55, 5.619, 2735.71)
-		elseif location == "Night Club" then 
-			return CFrame.new(-1844.95, 5.872, 3211.08)
-		elseif location == "Fire Station" then 
-			return CFrame.new(-963.32, 5.865, 3895.37, -0.0047, -2.09e-07, -0.99999, -4.25e-06, 1, -1.89e-07, 0.99999, 4.25e-06, -0.0047)
-		elseif location == "Bus Company" then 
-			return CFrame.new(-1695.80, 5.882, -1274.29, -0.9997, 7.07e-07, 0.0259, -6.75e-05, 0.999997, -0.0026, -0.0259, -0.0026, -0.9997)
-		elseif location == "Truck Company" then 
-			return CFrame.new(652.55, 5.638, 1510.85, 0.9981, -0.003, 0.0615, 0.0031, 0.999994, -0.0016, -0.0615, 0.0018, 0.9981)
-		elseif location == "Tool Shop" then 
-			return CFrame.new(-717.23, 5.654, 729.08, 0.9996, 4.71e-05, 0.0295, -5.32e-05, 1, 0.0002, -0.0295, -0.0002, 0.9996)
-		elseif location == "Food Shop" then 
-			return CFrame.new(-911.50, 5.371, -1169.20, 0.9999, 0.0001, -0.0147, -0.0001, 1, -0.0012, 0.0147, 0.0012, 0.9999)
-		elseif location == "Clothing Store" then 
-			return CFrame.new(479.05, 3.158, -1452.59, 0.0169, -0.0003, 0.99985, -0.000686, 0.9999, 0.000318, -0.999855, -0.000692, 0.0169544)
 		else
 			return "No"
 		end
@@ -8270,8 +8232,8 @@ local script = UI["157"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, -6, 0)
-		local highDestination = destination + Vector3.new(0, -6, 0)
+		local highStart = startPosition + Vector3.new(0, -5, 0)
+		local highDestination = destination + Vector3.new(0, -5, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8476,8 +8438,8 @@ local script = UI["174"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, -6, 0)
-		local highDestination = destination + Vector3.new(0, -6, 0)
+		local highStart = startPosition + Vector3.new(0, -5, 0)
+		local highDestination = destination + Vector3.new(0, -5, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8595,8 +8557,8 @@ local script = UI["18f"]
 		end
 	
 		local startPosition = car.PrimaryPart.Position
-		local highStart = startPosition + Vector3.new(0, - 6, 0)
-		local highDestination = destination + Vector3.new(0, - 6, 0)
+		local highStart = startPosition + Vector3.new(0, - 5, 0)
+		local highDestination = destination + Vector3.new(0, - 5, 0)
 	
 		local function moveTo(targetPosition)
 			local distance = (car.PrimaryPart.Position - targetPosition).Magnitude
@@ -8710,8 +8672,8 @@ local script = UI["19d"]
 		end
 	
 		-- Hoch fliegen, dann zum Ziel
-		moveTo(car.PrimaryPart.Position + Vector3.new(0, -60, 0))
-		moveTo(destination + Vector3.new(0, -60, 0))
+		moveTo(car.PrimaryPart.Position + Vector3.new(0, -4, 0))
+		moveTo(destination + Vector3.new(0, -4, 0))
 		moveTo(destination)
 		return true
 	end
@@ -8989,8 +8951,8 @@ local script = UI["1a5"]
 		end
 	
 		local start = car.PrimaryPart.Position
-		moveTo(start + Vector3.new(0, 200, 0))
-		moveTo(destination + Vector3.new(0, 200, 0))
+		moveTo(start + Vector3.new(0, -5, 0))
+		moveTo(destination + Vector3.new(0, -5, 0))
 		moveTo(destination)
 	end
 	
@@ -9649,7 +9611,7 @@ local script = UI["1de"]
 	_G.JALON_AIMCONFIG = aim_config
 	
 	local TARGETPART = "Head"
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["jy1"]["5518f74c-47d4-4e3b-a068-4f3eb6611dce"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
 	local Players = game:GetService("Players")
 	local wantedPlayers = {}
 	
@@ -10129,8 +10091,8 @@ task.spawn(SCRIPT_1f9)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Aimbot.ScrollingFrame1.3AutoTaser.TeaserAimScript \\ --
 local function SCRIPT_1ff()
 local script = UI["1ff"]
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["jy1"]["5518f74c-47d4-4e3b-a068-4f3eb6611dce"]
-	local shootRemoteEvent = game:GetService("ReplicatedStorage")["jy1"]["e5287fd1-b217-4950-834a-472e7112bf2b"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
+	local shootRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["6285f604-214b-4043-95f4-d89d32d02dcd"]
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	local LocalPlayer = Players.LocalPlayer
@@ -10393,7 +10355,7 @@ local script = UI["20b"]
 	local healthBarHeight = 6
 	local elementSpacing = 2
 	local maxDistance = 1000 -- Maximale Distanz in Studs, nach der das ESP ausgeblendet wird
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["jy1"]["5518f74c-47d4-4e3b-a068-4f3eb6611dce"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
 	
 	-- Tabelle, um die aktuellen ESPs zu verfolgen
 	local espTable = {}
