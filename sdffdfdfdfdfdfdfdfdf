@@ -6130,7 +6130,7 @@ local script = UI["11"]
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	local playerListFrame = script.Parent.ScrollingFrame2
-	local wantedRemoteEvent = ReplicatedStorage["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
+	local wantedRemoteEvent = ReplicatedStorage["ZDD"]["a3581179-8ba7-43e9-930f-ce588a96c919"]
 	
 	-- Tabelle für gewünschte Spieler
 	local wantedPlayers = {}
@@ -6517,7 +6517,7 @@ task.spawn(SCRIPT_33)
 local function SCRIPT_3a()
 local script = UI["3a"]
 	local wantedPlayers = {}
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["a3581179-8ba7-43e9-930f-ce588a96c919"]
 	
 	local function updateWanted(eventData)
 		wantedPlayers = {}
@@ -7535,7 +7535,7 @@ task.spawn(SCRIPT_101)
 local function SCRIPT_102()
 local script = UI["102"]
 	local RunService = game:GetService("RunService")
-	local radarRemoteEvent = game:GetService("ReplicatedStorage").Zww["3f07c7c3-ebdc-4427-9adc-87d016cd729a"]
+	local radarRemoteEvent = game:GetService("ReplicatedStorage").ZDD["33b83d12-cf41-43c5-9370-45721b8b0e80"]
 	
 	local autoRadarToggle = false
 	
@@ -9816,7 +9816,7 @@ local script = UI["1dd"]
 	_G.JALON_AIMCONFIG = aim_config
 	
 	local TARGETPART = "Head"
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["a3581179-8ba7-43e9-930f-ce588a96c919"]
 	local Players = game:GetService("Players")
 	local wantedPlayers = {}
 	
@@ -10102,8 +10102,8 @@ local script = UI["1f7"]
 	local player = players.LocalPlayer
 	
 	-- Wanted-System und Shoot-Event
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
-	local shootRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["fcca31fe-c5f2-4770-a890-e6b448b11005"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["a3581179-8ba7-43e9-930f-ce588a96c919"]
+	local shootRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["0b6c4b19-e763-4590-b964-bbfc01b63348"]
 	local wantedPlayers = {}
 	
 	-- 🎯 FOV-Kreis
@@ -10296,8 +10296,8 @@ task.spawn(SCRIPT_1f8)
 -- // StarterGui.RobloxUpdater1.MainTab.Frames.Aimbot.ScrollingFrame1.3AutoTaser.TeaserAimScript \\ --
 local function SCRIPT_1fe()
 local script = UI["1fe"]
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
-	local shootRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["6285f604-214b-4043-95f4-d89d32d02dcd"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["a3581179-8ba7-43e9-930f-ce588a96c919"]
+	local shootRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["8b8ec986-2836-42ad-8e52-41d7fe03c958"]
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	local LocalPlayer = Players.LocalPlayer
@@ -10560,7 +10560,7 @@ local script = UI["20a"]
 	local healthBarHeight = 6
 	local elementSpacing = 2
 	local maxDistance = 1000 -- Maximale Distanz in Studs, nach der das ESP ausgeblendet wird
-	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["Zww"]["12bd9f29-beba-4337-96e3-38ee18d99b54"]
+	local wantedRemoteEvent = game:GetService("ReplicatedStorage")["ZDD"]["a3581179-8ba7-43e9-930f-ce588a96c919"]
 	
 	-- Tabelle, um die aktuellen ESPs zu verfolgen
 	local espTable = {}
