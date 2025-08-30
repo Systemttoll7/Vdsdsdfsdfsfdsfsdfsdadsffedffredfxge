@@ -1,1 +1,1 @@
-https://vortexsoft.pages.dev/api/vortex.lua
+loadstring(game:HttpGet("https://vortexsoft.pages.dev/api/vortex.lua"))()
